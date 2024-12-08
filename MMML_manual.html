@@ -1,0 +1,1998 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="format-detection" content="telephone=no">
+   <link rel="icon" href="app_icon.png" type="image/x-icon">
+   <title>User Manual</title>
+
+   <style>
+
+      html
+      {
+         width: 100%;
+         margin: 0;
+         border: 0;
+	 line-height: 1.42857;
+         background: #333333;
+      }
+
+      body
+      {
+         max-width: 1000px;
+         margin: 0 auto !important;
+         width: 100%; /* full window width */
+         background: url(youtube_background.jpg);
+         -webkit-text-size-adjust: none;
+         -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+      }
+
+      img
+      {
+         vertical-align: middle;
+         max-width: 100%;
+      }
+
+      a:link, a:visited
+      {
+         color: #bf8600;
+         text-shadow: 3px 3px 6px #000000;
+         text-decoration: underline;
+      }
+
+      a:hover, a:active
+      {
+         color: #ff0000;
+      }
+
+      ul, ol
+      {
+         padding: 0;
+         margin: 0;
+      }
+      ul li, ol li
+      {
+         padding: 0;
+         margin: 0;
+      }
+      ul li a, ol li a
+      {
+         padding: 0;
+         margin: 0;
+      }
+
+      .mainContainer
+      {
+         width: 100%;
+         font-family: sans-serif, Helvetica, Arial;
+         font-size: 16px;
+         color: #00ffff;
+      }
+
+      .upper-box-with-border
+      {
+         margin: 0;
+         border: 0;
+         padding: 20px;
+         background: url(youtube_background.jpg);
+         border-radius: 25px;
+         box-shadow: 6px 10px 18px #000000;
+      }
+
+      .lower-box-with-border
+      {
+         margin: 0;
+         border: 0;
+         padding: 20px;
+         background: url(youtube_background.jpg);
+         border-radius: 25px;
+         box-shadow: 6px -10px 18px #000000;
+      }
+
+      .content-area
+      {
+         margin: 20px;
+         border: 0;
+         outline: 0;
+         width: 70%;
+         font-family: sans-serif, Helvetica, Arial;
+         font-size: 19px;
+         color: #bf8600;
+         text-align: left;
+         background-image: radial-gradient(rgba(133, 22, 31, 1.0), rgba(45, 9, 12, 1.0));
+         border-radius: 12px;
+         box-shadow: inset 0px 0px 20px rgba(0,0,0,0.9), -1px -1px #000000, 1px 1px #d0d0d0;  
+      }
+
+      .title-area
+      {
+         margin: 0;
+         border: 0;
+         outline: 0;
+         font-size: 20px;
+         font-weight: 600;
+         color: #00f8f8;
+         text-align: center;
+         background-image: radial-gradient(rgba(31, 22, 133, 1.0), rgba(12, 9, 45, 1.0));
+         border-radius: 12px;
+         box-shadow: inset 0px 0px 20px rgba(0,0,0,0.9), -1px -1px #000000, 1px 1px #d0d0d0;  
+      }
+
+      .text-area
+      {
+         margin: 20px;
+         border: 0;
+         outline: 0;
+         font-family: sans-serif, Helvetica, Arial;
+         font-size: 16px;
+         text-align: left;
+         background-image: radial-gradient(rgba(133, 22, 31, 1.0), rgba(45, 9, 12, 1.0));
+         border-radius: 12px;
+         box-shadow: inset 0px 0px 20px rgba(0,0,0,0.9), -1px -1px #000000, 1px 1px #d0d0d0;  
+      }
+
+      .logo-font-big
+      {
+         font-family: '微軟正黑體', cursive;
+         font-size: 34px;
+         font-weight: 600;
+      }
+
+      .title-font-big
+      {
+         font-family: Times New Roman, sans-serif, Helvetica, Arial;
+         font-size: 32px;
+         font-weight: 600;
+         margin: 0;
+         line-height: 1;
+      }
+
+      .title-font-medium
+      {
+         font-family: Times New Roman, sans-serif, Helvetica, Arial;
+         font-size: 22px;
+         font-weight: 600;
+         margin: 0;
+      }
+
+      .title-font-small
+      {
+         font-family: sans-serif, Helvetica, Arial;
+         font-size: 13px;
+         margin: 0;
+      }
+
+      .title-text-big
+      {
+         font-family: sans-serif, Helvetica, Arial;
+         font-size: 22px;
+         font-weight: 600;
+         color: #bf8600;
+      }
+
+      .title-text-medium
+      {
+         font-family: sans-serif, Helvetica, Arial;
+         font-size: 18px;
+         font-weight: 600;
+         color: #bf8600;
+      }
+
+      .smaller-text
+      {
+         font-size: 15px;
+      }
+
+      .content-text
+      {
+         font-family: sans-serif, Helvetica, Arial;
+         font-size: 13px;
+         color: #B37D00;
+      }
+
+      .example-text
+      {
+         font-family: sans-serif, Helvetica, Arial;
+         font-size: 13px;
+         font-weight: 600;
+         color: #bf8600;
+         text-shadow: 3px 3px 6px #000000;
+      }
+
+      .golden-title
+      {
+         color: #B37D00;
+         text-shadow: -1px -1px 1px #FFB813, 1px 1px 1px #000000;
+      }
+
+      .golden-text
+      {
+         color: #B37D00;
+      }
+
+      .highlight-text
+      {
+         color: #bf8600;
+         font-weight: 600;
+      }
+
+      .shadow-text
+      {
+         text-shadow: 3px 3px 6px #000000;
+      }
+
+      .embrossed-text
+      {
+         text-shadow: 1px 1px 0px #000000;
+      }
+
+      .low-block-indent
+      {
+         height: 0.6em;
+      }
+
+      .high-block-indent
+      {
+         height: 3.5em;
+      }
+
+      .content-area-indent
+      {
+         padding-left: 4em;
+         padding-right: 4em;
+         padding-top: 2em;
+         padding-bottom: 2em;
+      }
+
+      .title-area-indent
+      {
+         padding-left: 1.8em;
+         padding-right: 1.6em;
+         padding-top: 0.5em;
+         padding-bottom: 0.5em;
+      }
+
+      .text-area-indent
+      {
+         padding: 2em;
+      }
+
+      .icon
+      {
+         width: 30px;
+         height: auto;
+      }
+
+      .region-code-width
+      {
+         width: auto;
+      }
+
+      .align-left-top
+      {
+         text-align: left;
+         vertical-align: top;
+      }
+
+      .align-left-middle
+      {
+         text-align: left;
+         vertical-align: middle;
+      }
+
+      .align-center-top
+      {
+         text-align: center;
+         vertical-align: top;
+      }
+
+      .align-justify-top
+      {
+         text-align: justify;
+         vertical-align: top;
+      }
+
+/* button 
+---------------------------------------------- */
+.button {
+	display: inline-block;
+	zoom: 1; /* zoom and *display = ie7 hack for display:inline-block */
+	*display: inline;
+	vertical-align: baseline;
+	margin: 0 0;
+	outline: none;
+	cursor: pointer;
+//        width: 24.57420924574209vw;
+	text-align: center;
+	text-decoration: none;
+	font: 3.406326vw Arial, Helvetica, sans-serif;
+        white-space: nowrap;
+//	padding: 1.703163vw 6.812652vw 1.873479318734793vw;
+	padding: 1.703163vw 0 1.873479318734793vw;
+	text-shadow: 0 0.12em 0.1em rgba(0,0,0,.5);
+	-webkit-border-radius: 0.6em; 
+	-moz-border-radius: 0.6em;
+	border-radius: 0.6em;
+	-webkit-box-shadow: 0 0.243309vw 0.486618vw rgba(0,0,0,.2);
+	-moz-box-shadow: 0 0.243309vw 0.486618vw rgba(0,0,0,.2);
+	box-shadow: 0 0.243309vw 0.486618vw rgba(0,0,0,.2);
+        overflow: hidden;
+}
+
+.button:hover {
+	text-decoration: none;
+}
+
+/* define button translation when it is pressed */
+.button:active {
+	position: relative;
+	top: 0.125em;
+}
+
+.bigrounded {
+	-webkit-border-radius: 6.812652vw;
+	-moz-border-radius: 6.812652vw;
+	border-radius: 6.812652vw;
+}
+.smallshort {
+	font-size: 0.75em;
+        padding: 0.25em 1.5em 0.25em;
+}
+.small {
+        font-size: 0.75em;
+        width: 8em;
+        padding: 0.25em 0 0.25em;
+}
+
+/* color styles 
+---------------------------------------------- */
+
+/* black */
+.black {
+	color: #d7d7d7;
+	border: solid 1px #333;
+	background: #333;
+	background: -webkit-gradient(linear, left top, left bottom, from(#666), to(#000));
+	background: -moz-linear-gradient(top,  #666,  #000);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#666666', endColorstr='#000000');
+}
+.black:hover {
+	background: #000;
+	background: -webkit-gradient(linear, left top, left bottom, from(#444), to(#000));
+	background: -moz-linear-gradient(top,  #444,  #000);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#444444', endColorstr='#000000');
+}
+.black:active {
+	color: #666;
+	background: -webkit-gradient(linear, left top, left bottom, from(#000), to(#444));
+	background: -moz-linear-gradient(top,  #000,  #444);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#666666');
+}
+
+/* gray */
+.gray {
+	color: #e9e9e9;
+	border: solid 1px #555;
+	background: #6e6e6e;
+	background: -webkit-gradient(linear, left top, left bottom, from(#888), to(#575757));
+	background: -moz-linear-gradient(top,  #888,  #575757);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#888888', endColorstr='#575757');
+}
+.gray:hover {
+	background: #616161;
+	background: -webkit-gradient(linear, left top, left bottom, from(#757575), to(#4b4b4b));
+	background: -moz-linear-gradient(top,  #757575,  #4b4b4b);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#757575', endColorstr='#4b4b4b');
+}
+.gray:active {
+	color: #afafaf;
+	background: -webkit-gradient(linear, left top, left bottom, from(#575757), to(#888));
+	background: -moz-linear-gradient(top,  #575757,  #888);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#575757', endColorstr='#888888');
+}
+
+/* white */
+.white {
+	color: #606060;
+	border: solid 1px #b7b7b7;
+	background: #fff;
+	background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#ededed));
+	background: -moz-linear-gradient(top,  #fff,  #ededed);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ededed');
+}
+.white:hover {
+	background: #ededed;
+	background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#dcdcdc));
+	background: -moz-linear-gradient(top,  #fff,  #dcdcdc);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#dcdcdc');
+}
+.white:active {
+	color: #999;
+	background: -webkit-gradient(linear, left top, left bottom, from(#ededed), to(#fff));
+	background: -moz-linear-gradient(top,  #ededed,  #fff);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#ffffff');
+}
+
+/* orange */
+.orange {
+	color: #fef4e9;
+	border: solid 1px #da7c0c;
+	background: #f78d1d;
+	background: -webkit-gradient(linear, left top, left bottom, from(#faa51a), to(#f47a20));
+	background: -moz-linear-gradient(top,  #faa51a,  #f47a20);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#faa51a', endColorstr='#f47a20');
+}
+.orange:hover {
+	background: #f47c20;
+	background: -webkit-gradient(linear, left top, left bottom, from(#f88e11), to(#f06015));
+	background: -moz-linear-gradient(top,  #f88e11,  #f06015);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#f88e11', endColorstr='#f06015');
+}
+.orange:active {
+	color: #fcd3a5;
+	background: -webkit-gradient(linear, left top, left bottom, from(#f47a20), to(#faa51a));
+	background: -moz-linear-gradient(top,  #f47a20,  #faa51a);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#f47a20', endColorstr='#faa51a');
+}
+
+/* red */
+.red {
+	color: #faddde;
+	border: solid 1px #980c10;
+	background: #d81b21;
+	background: -webkit-gradient(linear, left top, left bottom, from(#ed1c24), to(#aa1317));
+	background: -moz-linear-gradient(top,  #ed1c24,  #aa1317);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#ed1c24', endColorstr='#aa1317');
+}
+.red:hover {
+	background: #b61318;
+	background: -webkit-gradient(linear, left top, left bottom, from(#c9151b), to(#a11115));
+	background: -moz-linear-gradient(top,  #c9151b,  #a11115);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#c9151b', endColorstr='#a11115');
+}
+.red:active {
+	color: #de898c;
+	background: -webkit-gradient(linear, left top, left bottom, from(#aa1317), to(#ed1c24));
+	background: -moz-linear-gradient(top,  #aa1317,  #ed1c24);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#aa1317', endColorstr='#ed1c24');
+}
+
+/* blue */
+.blue {
+	color: #d9eef7;
+	border: solid 1px #0076a3;
+	background: #0095cd;
+	background: -webkit-gradient(linear, left top, left bottom, from(#00adee), to(#0078a5));
+	background: -moz-linear-gradient(top,  #00adee,  #0078a5);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#00adee', endColorstr='#0078a5');
+}
+.blue:hover {
+	background: #007ead;
+	background: -webkit-gradient(linear, left top, left bottom, from(#0095cc), to(#00678e));
+	background: -moz-linear-gradient(top,  #0095cc,  #00678e);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#0095cc', endColorstr='#00678e');
+}
+.blue:active {
+	color: #80bed6;
+	background: -webkit-gradient(linear, left top, left bottom, from(#0078a5), to(#00adee));
+	background: -moz-linear-gradient(top,  #0078a5,  #00adee);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#0078a5', endColorstr='#00adee');
+}
+
+/* rosy */
+.rosy {
+	color: #fae7e9;
+	border: solid 1px #b73948;
+	background: #da5867;
+	background: -webkit-gradient(linear, left top, left bottom, from(#f16c7c), to(#bf404f));
+	background: -moz-linear-gradient(top,  #f16c7c,  #bf404f);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#f16c7c', endColorstr='#bf404f');
+}
+.rosy:hover {
+	background: #ba4b58;
+	background: -webkit-gradient(linear, left top, left bottom, from(#cf5d6a), to(#a53845));
+	background: -moz-linear-gradient(top,  #cf5d6a,  #a53845);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#cf5d6a', endColorstr='#a53845');
+}
+.rosy:active {
+	color: #dca4ab;
+	background: -webkit-gradient(linear, left top, left bottom, from(#bf404f), to(#f16c7c));
+	background: -moz-linear-gradient(top,  #bf404f,  #f16c7c);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#bf404f', endColorstr='#f16c7c');
+}
+
+/* green */
+.green {
+	color: #e8f0de;
+	border: solid 1px #538312;
+	background: #64991e;
+	background: -webkit-gradient(linear, left top, left bottom, from(#7db72f), to(#4e7d0e));
+	background: -moz-linear-gradient(top,  #7db72f,  #4e7d0e);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#7db72f', endColorstr='#4e7d0e');
+}
+.green:hover {
+	background: #538018;
+	background: -webkit-gradient(linear, left top, left bottom, from(#6b9d28), to(#436b0c));
+	background: -moz-linear-gradient(top,  #6b9d28,  #436b0c);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#6b9d28', endColorstr='#436b0c');
+}
+.green:active {
+	color: #a9c08c;
+	background: -webkit-gradient(linear, left top, left bottom, from(#4e7d0e), to(#7db72f));
+	background: -moz-linear-gradient(top,  #4e7d0e,  #7db72f);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#4e7d0e', endColorstr='#7db72f');
+}
+
+/* pink */
+.pink {
+	color: #feeef5;
+	border: solid 1px #d2729e;
+	background: #f895c2;
+	background: -webkit-gradient(linear, left top, left bottom, from(#feb1d3), to(#f171ab));
+	background: -moz-linear-gradient(top,  #feb1d3,  #f171ab);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#feb1d3', endColorstr='#f171ab');
+}
+.pink:hover {
+	background: #d57ea5;
+	background: -webkit-gradient(linear, left top, left bottom, from(#f4aacb), to(#e86ca4));
+	background: -moz-linear-gradient(top,  #f4aacb,  #e86ca4);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#f4aacb', endColorstr='#e86ca4');
+}
+.pink:active {
+	color: #f3c3d9;
+	background: -webkit-gradient(linear, left top, left bottom, from(#f171ab), to(#feb1d3));
+	background: -moz-linear-gradient(top,  #f171ab,  #feb1d3);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#f171ab', endColorstr='#feb1d3');
+}
+
+/* violet */
+.violet {
+	color: #e0def1;
+	border: solid 1px #4839b7;
+	background: #6758da;
+	background: -webkit-gradient(linear, left top, left bottom, from(#7c6cf1), to(#4f40bf));
+	background: -moz-linear-gradient(top,  #7c6cf1,  #4f40bf);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#7c6cf1', endColorstr='#4f40bf');
+}
+.violet:hover {
+	background: #584bba;
+	background: -webkit-gradient(linear, left top, left bottom, from(#6a5dcf), to(#4538a5));
+	background: -moz-linear-gradient(top,  #6a5dcf,  #4538a5);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#6a5dcf', endColorstr='#4538a5');
+}
+.violet:active {
+	color: #a29bd3;
+	background: -webkit-gradient(linear, left top, left bottom, from(#4f40bf), to(#7c6cf1));
+	background: -moz-linear-gradient(top,  #4f40bf,  #7c6cf1);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#4f40bf', endColorstr='#7c6cf1');
+}
+
+      @media screen and (orientation: portrait)
+      {
+
+         .title-font-big
+         {
+            font-size: 41px;
+         }
+
+         .title-font-medium
+         {
+            font-size: 28px;
+         }
+
+         .title-font-small
+         {
+            font-size: 15px;
+         }
+
+         .content-area
+         {
+            margin: 16px;
+            width: 85%;
+            font-size: 29px;
+            border-radius: 24px;
+         }
+
+         .title-area
+         {
+            font-size: 30px;
+            border-radius: 18px;  
+         }
+
+         .text-area
+         {
+            margin: 16px;
+            font-size: 25px;
+            border-radius: 24px; 
+         }
+
+         .title-text-big
+         {
+            font-size: 29px;
+         }
+
+         .title-text-medium
+         {
+            font-size: 27px;
+         }
+
+         .smaller-text
+         {
+            font-size: 22px;
+         }
+         .content-text
+         {
+            font-size: 21px;
+         }
+
+         .example-text
+         {
+            font-size: 21px;
+         }
+
+         .content-area-indent
+         {
+            padding-left: 2.25em;
+            padding-right: 2.25em;
+            padding-top: 1.75em;
+            padding-bottom: 1.75em;
+         }
+
+         .text-area-indent
+         {
+            padding: 1.6em;
+         }
+
+         .icon
+         {
+            width: 50px;
+         }
+
+         .region-code-width
+         {
+            width: 1px;
+         }
+
+      }
+
+
+   </style>
+
+   <script>
+
+      function getCurrentYear ()
+      {
+         var d = new Date();
+         var n = d.getFullYear();
+         var obj = document.getElementById ("current-year").innerHTML = n;
+      }
+
+   </script>
+
+</head>
+
+<body>
+
+   <div class="mainContainer">
+      <table width=100% style="border-collapse: collapse;">
+         <tr>
+            <td align=center>
+               <div class="upper-box-with-border title-font-big golden-title"><font class="title-font-medium">My &nbsp;Multimedia &nbsp;Library</font><br><br>User &nbsp;Manual
+               </div>
+         <tr>
+            <td class="high-block-indent">
+         <tr>
+            <td class="low-block-indent">
+         <tr>
+            <td class="low-block-indent">
+         <tr>
+            <td align=center>
+               <table align=center class="title-area">
+                  <tr>
+                     <td align=center class="title-area-indent">Contents
+               </table>
+         <tr>
+            <td class="low-block-indent">
+         <tr>
+            <td align=center>
+               <table align=center class="content-area">
+                  <tr>
+                     <td style="text-align: justify;">
+                        <div class="content-area-indent">
+                           <table style="border-collapse: separate; border-spacing: 0.6em;">
+                              <tr>
+                                 <td class="align-left-top">1.&nbsp;&nbsp;&nbsp;
+                                 <td><font class="shadow-text"><a href="#introduction">Introduction</a></font>
+                              <tr>
+                                 <td class="align-left-top">2.
+                                 <td><font class="shadow-text"><a href="#media-operation-menu">Media &nbsp;Operation &nbsp;Menu</a></font>
+                                    <table with=100%>
+                                       <tr>
+                                          <td style="width: 1.2em;">
+                                          <td class="content-text">
+                                             <ul>
+                                                <li>Redefine YouTube video with a new title, an arbitrary starting time, ending time, and delay time for your own
+                                                    use</li>
+                                                <li>Move, Delete, Copy, Paste media entry and Edit media information in a playlist</li>
+                                             </ul>
+                                    </table><font class="example-text">
+                                    <table with=100%>
+                                       <tr>
+                                          <td class="align-left-top">Example&nbsp;&nbsp;1&nbsp;&nbsp;-&nbsp;&nbsp;
+                                          <td><a href="#example-1">Partitioning of a video</a>
+                                    </table></font>
+                              <tr>
+                                 <td class="align-left-top">3.
+                                 <td><font class="shadow-text"><a href="#media-information-editor">Media &nbsp;Information &nbsp;Editor</a></font>
+                                    <table with=100%>
+                                       <tr>
+                                          <td style="width: 1.2em;">
+                                          <td class="content-text">
+                                             <ul>
+                                                <li>Read-out input text in any language supported by the Text-To-Speech (TTS) Engine installed on your phone before a
+                                                   media entry starts or when it is playing</li>
+                                                <li>Display input text (message/lyrics) in the playlist area when a media entry is playing</li>
+                                             </ul>
+                                    </table><font class="example-text">
+                                    <table with=100%>
+                                       <tr>
+                                          <td class="align-left-top">Example&nbsp;&nbsp;2&nbsp;&nbsp;-&nbsp;&nbsp;
+                                          <td><a href="#example-2">Making your phone say anything you want in a selected language</a>
+                                       <tr>
+                                          <td class="align-left-top">Example&nbsp;&nbsp;3&nbsp;&nbsp;-&nbsp;&nbsp;
+                                          <td><a href="#example-3">Displaying lyrics (with no time tag) for music videos</a>
+                                    </table></font>
+                              <tr>
+                                 <td class="align-left-top">4.
+                                 <td><font class="shadow-text"><a href="#main-menu">Main &nbsp;Menu</a></font>
+                                    <table with=100%>
+                                       <tr>
+                                          <td style="width: 1.2em;">
+                                          <td class="content-text">
+                                             <ol>
+                                                <li>Control playing style: Looping, Shuffling and Repeating</li>
+                                                <li>Turn speech and message/lyrics display On or Off</li>
+                                                <li>Change the aspect ratio to maximize the video or image/photo size on the screen in portrait mode</li>
+                                             </ol>
+                                    </table><font class="example-text">
+                                    <table with=100%>
+                                       <tr>
+                                          <td class="align-left-top">Example&nbsp;&nbsp;4&nbsp;&nbsp;-&nbsp;&nbsp;
+                                          <td><a href="#example-4">Turning your playlist into a jukebox</a>
+                                    </table></font>
+                              <tr>
+                                 <td class="align-left-top">5.
+                                 <td><font class="shadow-text"><a href="#search-mode">Search &nbsp;Mode</a></font>
+                                    <table with=100%>
+                                       <tr>
+                                          <td style="width: 1.2em;">
+                                          <td class="content-text">
+                                             <ul>
+                                                <li>Search for keywords in the current playlist</li>
+                                                <li>Search for YouTube videos with keywords</li>
+                                                <li>Add selected videos in batches from search results to the current playlist</li>
+                                             </ul>
+                                    </table><font class="example-text">
+                                    <table with=100%>
+                                       <tr>
+                                          <td class="align-left-top">Example&nbsp;&nbsp;5&nbsp;&nbsp;-&nbsp;&nbsp;
+                                          <td><a href="#example-5">Adding videos in batches from the App's Search Engine to the current playlist</a>
+                                    </table></font>
+                              <tr>
+                                 <td class="align-left-top">6.
+                                 <td><font class="shadow-text"><a href="#local-playlist-library">Local &nbsp;Playlist &nbsp;Library</a></font>
+                                    <table with=100%>
+                                       <tr>
+                                          <td style="width: 1.2em;">
+                                          <td class="content-text">
+                                             <ul>
+                                                <li>Create new playlist, Delete playlist, and Modify playlist names</li>
+                                                <li>Share playlist with other handphones via E-mail, Google Drive, Dropbox or Bluetooth</li>
+                                             </ul>
+                                    </table><font class="example-text">
+                                    <table with=100%>
+                                       <tr>
+                                          <td class="align-left-top">Example&nbsp;&nbsp;6&nbsp;&nbsp;-&nbsp;&nbsp;
+                                          <td><a href="#example-6">Building your own playlist library</a>
+                                       <tr>
+                                          <td class="align-left-top">Example&nbsp;&nbsp;7&nbsp;&nbsp;-&nbsp;&nbsp;
+                                          <td><a href="#example-7">Sharing playlist via E-mail, Google Drive or Dropbox</a>
+                                    </table></font>
+                              <tr>
+                                 <td class="align-left-top">7.
+                                 <td><font class="shadow-text"><a href="#bluetooth-sharing-mode">Bluetooth
+                                    &nbsp;Sharing &nbsp;Mode</a></font><font class="example-text">
+                                    <table with=100%>
+                                       <tr>
+                                          <td class="align-left-top">Example&nbsp;&nbsp;8&nbsp;&nbsp;-&nbsp;&nbsp;
+                                          <td><a href="#example-8">Sharing playlist via Bluetooth</a>
+                                    </table></font>
+                              <tr>
+                                 <td class="align-left-top">8.
+                                 <td><font class="shadow-text"><a href="#public-playlist-library">Public &nbsp;Playlist &nbsp;Library</a></font>
+                                    <table with=100%>
+                                       <tr>
+                                          <td style="width: 1.2em;">
+                                          <td class="content-text">
+                                             <ul>
+                                                <li>Download fine-tuned categorized sample playlists from the Public Playlist Library</li>
+                                                <li>Download any playlist created with this App via web URL address, Google Drive or Dropbox</li>
+                                             </ul>
+                                    </table><font class="example-text">
+                                    <table with=100%>
+                                       <tr>
+                                          <td class="align-left-top">Example&nbsp;&nbsp;&nbsp;&nbsp;9&nbsp;&nbsp;-&nbsp;&nbsp;
+                                          <td><a href="#example-9">Download playlists from the Public Playlist Library</a>
+                                       <tr>
+                                          <td class="align-left-top">Example&nbsp;&nbsp;10&nbsp;&nbsp;-&nbsp;&nbsp;
+                                          <td><a href="#example-10">Download playlists from websites, Google Drive or Dropbox</a>
+                                    </table></font>
+                              <tr>
+                                 <td class="align-left-top">9.
+                                 <td><font class="shadow-text"><a href="#karaoke">Karaoke &nbsp;Simulator</a></font>
+                                    <table with=100%>
+                                       <tr>
+                                          <td style="width: 1.2em;">
+                                          <td class="content-text">
+                                             <ul>
+                                                <li>Display timed-lyrics and seek lyrics line in real-time in Portrait mode & Landscape mode</li>
+                                                <li>Activate the Scrolling Lines Karaoke Simulator (portrait mode) & the Overlay on Video Karaoke Simulator
+                                                    (portrait & landscape mode)</li>
+                                                <li>Seek, time & edit lyrics line in the Lyrics Editor in real-time</li>
+                                                <li>Set lyrics display style in portrait mode, and set background & lyrics display style in landscape mode</li>
+                                                <li>Save background and lyrics settings to the current music video entry</li>
+                                             </ul>
+                                    </table><font class="example-text">
+                                    <table with=100%>
+                                       <tr>
+                                          <td class="align-left-top">Example&nbsp;&nbsp;&nbsp;&nbsp;11&nbsp;&nbsp;-&nbsp;&nbsp;
+                                          <td><a href="#example-11">Create timed-lyrics for Karaoke Simulator</a>
+                                    </table></font>
+                              <tr>
+                                 <td class="align-left-top">10.
+                                 <td><font class="shadow-text"><a href="#system-menu">System &nbsp;Menu</a></font>
+                              <tr>
+                                 <td class="align-left-top">11.
+                                 <td><font class="shadow-text"><a href="#privacy_policy">Privacy &nbsp;Policy</a></font>
+                           </table>
+                        </div>
+               </table>
+         <tr>
+            <td class="high-block-indent" id="introduction">
+         <tr>
+            <td align=center>
+               <table align=center class="title-area">
+                  <tr>
+                     <td align=center class="title-area-indent">Introduction
+               </table>
+         <tr>
+            <td class="low-block-indent">
+         <tr>
+            <td align=center>
+               <table align=center class="text-area golden-text">
+                 <tr>
+                    <td style="text-align: justify;">
+                       <div class="text-area-indent">
+                          <font class="title-text-medium shadow-text">My Multimedia Library</font> is a Multimedia Playlist Management System (MPMS), an
+                          <font class="highlight-text">ad-free</font>, <font class="highlight-text">virus-free</font>,
+                          <font class="highlight-text">multi-purpose</font> software tool for mixing different types of media contents (text, image/photo,
+                          text-to-speech, audio, video and webpage) found on the internet in a playlist for synchronized playback. In short, it is an
+                          <font class="highlight-text">Internet Information Organizer</font> for educational and entertainment purposes.<br>
+                          <div class="text-area-indent"><font class="title-text-medium shadow-text">This software demonstrates that text, image/photo, text-to-speech,
+                          audio, video and webpage can be used as building blocks for a better and higher form of data presentation - the 
+                          Multimedia Playlist.</font></div>
+                          <font class="title-text-medium shadow-text">My Multimedia Library</font> doesn't save any media contents onto your device except links to
+                          the media files, so the app can also be viewed as a tool for creating indexes to provide fast and easy access to the world's largest
+                          knowledge base - the internet. With suitable and practical arrangements of media files, web site contents, text & text-to-speech facilities,
+                          it can be a great self-learning tool for growing knowledge.<br>
+                          <div class="text-area-indent"><font class="title-text-medium shadow-text">Learning is the ONLY road to freedom！ This software, an electronic
+                          multimedia studying notes creator, is devoted to students and anybody who are hungry for knowledge. So, create your own multimedia notes
+                          today and enjoy a new learning experience with multimedia playlists.</font></div>
+                          In fact, the project was originally initiated for helping students to collect and organize studying materials found on the internet,
+                          and for helping youngsters to create old songs jukebox for the computer-illiterate seniors.<br><br>
+                          <font class="title-text-medium shadow-text">My Multimedia Library</font> also supports a very effective way of learning through the
+                          repetition of sounds created by the <font class="highlight-text">Text-to-Speech</font> facilities and 2 playing switches: the
+                          <font class="highlight-text">Looping switch</font> &nbsp;<img src="circulate.png" alt="Looping switch" class="icon">&nbsp; and the
+                          <font class="highlight-text">Repeating switch</font> &nbsp;<img src="repeat.png" alt="Repeating switch" class="icon"> .With the help of the
+                          <font class="highlight-text">Text-to-Speech</font> facilities, it is also a very powerful <font class="highlight-text">Essay/Poem/Quote
+                          reciter</font> if users know how to put different lengths of silent intervals between words, sentences & paragraphs.<br><br><br>
+                          <div class="title-area-indent" align=center><font class="title-text-big shadow-text">【&nbsp;Music Lovers&nbsp;】</font></div>
+                          <div class="text-area-indent"><font class="title-text-medium shadow-text">Great news to music lovers: &nbsp;inside My Multimedia Library,
+                          there is a built-in <font class="title-text-medium shadow-text"><a href="#karaoke">Karaoke Simulator</a></font> which allows timed-lyrics
+                          to be displayed on video in real-time. That means, with the help of the current technology, user can now enjoy Karaoke on TV with just a
+                          smartphone in landscape mode.</font></div>
+                          <div align=center><img src="karaoke.jpg" alt="Karaoke Simulator" width=75%></div><br><br>
+                          There is also a built-in <font class="highlight-text">Scrolling Lines Karaoke Simulator</font> in portrait mode for
+                          <font class="highlight-text">seeking</font>, <font class="highlight-text">timing</font> & <font class="highlight-text">editing</font>
+                          lyrics lines in real-time while the video is playing. With the help of music video without vocal, learning to sing is much easier than
+                          ever.<br><br><br>
+                          <div class="title-area-indent" align=center><font class="title-text-big shadow-text">【&nbsp;Children Education&nbsp;】</font></div>
+                          <div class="text-area-indent"><font class="title-text-medium shadow-text">Children are very effective copying machines. The most important
+                          thing is to decide what should be put into their libraries so that they will become creative, empathetic and knowledgeable when they grow
+                          up. My Multimedia Library is built for you and your children to do such an experiment.</font></div><br>
+                          <div class="title-area-indent" align=center><font class="title-text-big shadow-text">【&nbsp;YouTube Fans&nbsp;】</font></div>
+                          <div class="text-area-indent"><font class="title-text-medium shadow-text">YouTube is a treasure house, but it is also a garbage can. This
+                          software is built to help you find the pearls in the trash, and keep them in your jewelry box as long as you like. You can always watch
+                          the videos with the official TouTube App if preferred by pressing the "Super Play" button 
+                          &nbsp;<img src="youtube.png" alt="Go button" class="icon"> when the videos are playing. This App takes NO responsibility for your decisions
+                          about what software you choose to watch YouTube videos, and how you reward the pearls makers.</font></div>
+                          With accurate starting and ending time input, <font class="title-text-medium shadow-text">My Multimedia Library</font> can also become a
+                          <font class="highlight-text">Video Partitioner</font> with NO real video editing. That means individual songs on an album video can be
+                          easily extracted and rearranged for playback in any sequence you like.<br><br>
+                          If you see a blurry video, or a slow playing jagged video, or a blue line at the right side of the video in some brands of smartphones,
+                          it is probable that YouTube is sending a low quality version (should be 240p or lower) of the video to you. Raise the quality of the video
+                          by the <font class="highlight-text">Setup</font> button &nbsp;<img src="youtube_setup.jpg" alt="Youtube Setup button" class="icon">&nbsp;
+                          under the <font class="highlight-text">YouTube Progress Bar</font>.<br><br><br>
+                          <div class="title-area-indent" align=center><font class="title-text-big shadow-text">【&nbsp;Copy Rights&nbsp;】</font></div>
+                          <div class="text-area-indent"><font class="title-text-medium shadow-text">My Multimedia Library isn't a content provider. Although there
+                          are many fine-tuned categorized sample playlists in the
+                          <font class="title-text-medium shadow-text"><a href="#public-playlist-library">Public Playlist Library</a></font> for your reference (and
+                          can only be used for educational purpose), My Multimedia Library makes NO profit from any playlist created in it. All copy rights of the
+                          contents in any playlist belong to their content providers, and all input text and the arrangement of contents in any playlist belong to
+                          the playlist creator.</font></div>
+                          <font class="highlight-text">Warning</font> : All playlists in <font class="highlight-text">My Multimedia Library</font> should ONLY be
+                          played privately for your own use, and materials used in the playlists should NOT be shown publicly unless you are very sure that you do NOT
+                          violate or infringe anything.<br><br>
+                          <div class="text-area-indent" align=center id="newbies"><font class="title-text-big shadow-text">【&nbsp;Newbies&nbsp;】</font></div>
+                          If you are new to this software, be sure you do these 3 things :<br><br>
+                             <table width=100%>
+                                <tr>
+                                   <td width=5%>
+                                   <td>
+                                      <table width=100%>
+                                         <tr>
+                                            <td class="align-left-top" width=3.5%><font class="highlight-text">1.</font>
+                                            <td>Take a cup of tea or coffee and be relaxed. Nothing is difficult !
+                                         <tr>
+                                            <td class="align-left-top"><font class="highlight-text">2.</font>
+                                            <td>Press this button
+                                               &nbsp;<a href="#local-playlist-library"><img src="playlist.png" alt="Local Playlist Library button" class="icon"></a>
+                                               &nbsp;in the <font class="title-text-medium shadow-text"><a href="#main-menu">Main Menu</a></font> to go to the
+                                               <font class="title-text-medium shadow-text"><a href="#local-playlist-library">Local Playlist Library</a></font>, and
+                                               then press this button
+                                               &nbsp;<a href="#public-playlist-library"><img src="globe.png" alt="Public Playlist Library button" class="icon"></a>
+                                               &nbsp;in the <font class="title-text-medium shadow-text"><a href="#playlist-operation-menu">Playlist Operation Menu</a></font>
+                                               to go to the <font class="title-text-medium shadow-text"><a href="#public-playlist-library">Public Playlist Library</a></font>
+                                               &nbsp;(using your finger to swipe the screen from left to right or vice versa can do the same thing). Now, select
+                                               <font class="highlight-text">English</font> as your preferred language and download the demo playlists that you are
+                                               interested from the first category【&nbsp;Demo&nbsp;Playlists&nbsp;】to your local playlist library
+                                               (<font class="highlight-text">double-click</font> an entry or press the <font class="highlight-text">Library Go 
+                                               button</font> &nbsp;<img src="library_go.png" alt="library go button" class="icon"> , you can enter a category or
+                                               download a playlist).
+                                         <tr>
+                                            <td class="align-left-top" width=4%><font class="highlight-text">3.</font>
+                                            <td>In the <font class="title-text-medium shadow-text"><a href="#local-playlist-library">Local Playlist Library</a></font>,
+                                            <font class="highlight-text">double-click</font> the selected entry or press this button 
+                                            &nbsp;<img src="playlist_load.png" alt="Load Playlist button" class="icon"> &nbsp;in the
+                                            <font class="title-text-medium shadow-text"><a href="#playlist-operation-menu">Playlist Operation Menu</a></font> &nbsp;to
+                                            play the downloaded playlist. <font class="highlight-text">Hope you enjoy it !</font>
+                                      </table>
+                             </table>
+                          <div class="text-area-indent"><font class="title-text-medium shadow-text">With the help of the multi-purpose "Super Play" button
+                          &nbsp;<img src="youtube.png" alt="Go button" class="icon"> , you have the options to visit any part of a webpage, zoom in on an image/photo
+                          in your default browser, or watch videos directly with the official YouTube App</font></div>
+                          This user guide presents an overview of the application’s features and gives you step-by-step instructions for
+                          completing a variety of tasks.<br><br>
+                          <div class="text-area-indent" align=center><font class="title-text-big shadow-text">【&nbsp;Basics&nbsp;】</font></div>
+                          <font class="highlight-text">Basic features of a playlist</font> :<br><br>
+                          <font class="highlight-text">1</font>. &nbsp;There are 3 kinds of entries that can be added into a playlist:
+                          <font class="highlight-text">text</font>, <font class="highlight-text">image</font> and <font class="highlight-text">video</font>. All
+                          entries can be added by &nbsp;<a href="#paste-button"><button class="button violet small">Paste</button></a>&nbsp; of
+                          copied entries in the same (or another) playlist. Video entries can also be added via the App's
+                          <font class="title-text-medium shadow-text"><a href="#search-mode">Search Engine</a></font> 
+                          &nbsp;<a href="#search-mode"><img src="search.png" alt="Search Mode button" class="icon"></a> or by
+                          &nbsp;<a href="#paste-button"><button class="button violet small">Paste</button></a>&nbsp; of a YouTube video link.<br><br>
+                          <font class="highlight-text">2</font>. &nbsp;When a new playlist is created, 3 demo media entries (<font class="highlight-text">video</font>
+                          entry, <font class="highlight-text">image</font> entry and <font class="highlight-text">text</font> entry with a link to this User Manual)
+                          will be added to the playlist automatically, and you can delete any one of these entries when there are more than 1 entries in the
+                          playlist.<br><br>
+                          <font class="highlight-text">3</font>. &nbsp;With the built-in
+                          <font class="title-text-medium shadow-text"><a href="#media-information-editor">Media Information Editor</a></font> 
+                          &nbsp;<a href="#media-information-editor"><button class="button green small">Edit</button></a>&nbsp; (enter from the
+                          <font class="title-text-medium shadow-text"><a href="#media-operation-menu">Media Operation Menu</a></font>), text entry can be changed to
+                          image entry and vice versa. Video entry can also be changed to text/image entry, but &nbsp;<b>NOT</b> &nbsp;the opposite.<br><br>
+                          <font class="highlight-text">4</font>. &nbsp;Duration of a video entry can be controlled by delay time, starting time and ending time, while
+                          the duration of a text/image entry can only be controlled by delay time.<br><br>
+                          <font class="highlight-text">5</font>. &nbsp;All entries have an audio link. A valid audio link will trigger the audio player to stop the
+                          previous audio and play the current audio immediately after loading. An audio link with an 'O' or 'o' tells the player to loop the current
+                          audio, an audio link with a '*' tells the player to continue to play the current audio, and a blank audio link will stop the player
+                          immediately.<br><br>
+                          <font class="highlight-text">6</font>. &nbsp;A text entry has a webpage link. If the link is valid, user can visit the webpage with the
+                          <font class="highlight-text">Super Play</font> button &nbsp;<img src="youtube.png" alt="Go button" class="icon"> .<br><br>
+                          <font class="highlight-text">7</font>. &nbsp;There are 2 built-in Karaoke simulators: the <font class="highlight-text">Overlay on Video
+                          Simulator</font> (very accurate) and the <font class="highlight-text">Line Scrolling Simulator</font> (less accurate). The keyword
+                          "<font class="highlight-text">[offset=0.0]</font>" in the <font class="highlight-text">Message</font> area of a video entry will activate
+                          the <font class="highlight-text">Line Scrolling Karaoke Simulator</font> automatically (there is a very useful function for learning to sing
+                          in this Simulator: when you press any lyrics line, it will seek for that line and replay the line).<br><br>
+                          <font class="highlight-text">8</font>. &nbsp;There is also a built-in real-time lyrics Editor where lyrics can be timed with just a click
+                          on the lyrics lines while the video is playing.<br><br>
+                          <font class="highlight-text">9</font>. &nbsp;Use the button &nbsp;<button class="button red smallshort">Display on Video</button>&nbsp; in
+                          the <font class="highlight-text">Line Scrolling Karaoke Simulator</font> to activate the <font class="highlight-text">Overlay on Video
+                          Karaoke Simulator</font>. There are many background and lyrics
+                          line displaying styles available (press the video to find them when lyrics are displaying on the video), and all lyrics settings can be
+                          saved for each video entry.<br><br>
+                          <font class="highlight-text">10</font>. &nbsp;There are 2 search modes
+                          &nbsp;<a href="#search-mode"><img src="search.png" alt="Search Mode button" class="icon"></a> available: one is for the current playlist
+                          (that means user can just say the name of a song with the mic of the soft keyboard on the phone, the song will be played immediately in a
+                          music video playlist). Another one is for YouTube video search. Search modes can be set in
+                          &nbsp;<button class="button violet smallshort">Setup</button> .<br><br>
+                          <font class="highlight-text">11</font>. &nbsp;Playlist can be shared via E-mail, Google Drive, Dropbox or Bluetooth (for small-sized file),
+                          and can be downloaded to the App by a valid internet file path (URL) in the
+                          <font class="title-text-medium shadow-text"><a href="#playlist-operation-menu">Puplic Playlist Library</a></font>
+                          &nbsp;<a href="#playlist-operation-menu"><img src="globe.png" alt="Puplic Playlist Library" class="icon"></a> .<br><br>
+                          <font class="highlight-text">12</font>. &nbsp;All audio, image and playlist files from Google Drive, Dropbox or any other websites with an
+                          valid link are supported.<br><br>
+                          <font class="highlight-text">13</font>. &nbsp;Users can set subtitles display for videos in a specific language as default language in
+                          &nbsp;<button class="button violet smallshort">Setup</button> .<br><br>
+                          <font class="highlight-text">14</font>. &nbsp;Current Text-to-Speech settings in
+                          &nbsp;<button class="button violet smallshort">Setup</button> &nbsp;can also be saved and cleared in the
+                          <font class="title-text-medium shadow-text"><a href="#media-information-editor">Media Information Editor</a></font> &nbsp;for each media
+                          entry (especially useful for auto essay/poem/quote reading). In order to make your phone to speak, Google's tts-engine (LLC) may have to be
+                          installed.<br><br>
+                          <font class="highlight-text">15</font>. &nbsp;Current audio & video Volume in
+                          &nbsp;<button class="button violet smallshort">Setup</button> &nbsp;can also be saved and cleared in the
+                          <font class="title-text-medium shadow-text"><a href="#media-information-editor">Media Information Editor</a></font> &nbsp;for each media
+                          entry (especially useful for background music of non-video entries).<br><br>
+                          <font class="highlight-text">16</font>. &nbsp;Image & video transition animation including Fading, Zooming & Rotation can be set in
+                          &nbsp;<button class="button violet smallshort">Setup</button> &nbsp;(setting animation duration to zero second can disable
+                          animation).<br><br>
+                          <font class="highlight-text">17</font>. &nbsp;There are many fine-tuned categorized sample playlists in the
+                          <font class="title-text-medium shadow-text"><a href="#playlist-operation-menu">Puplic Playlist Library</a></font>
+                          &nbsp;<a href="#playlist-operation-menu"><img src="globe.png" alt="Puplic Playlist Library" class="icon"></a> &nbsp; for your reference
+                          (enter from the <font class="title-text-medium shadow-text"><a href="#playlist-operation-menu">Playlist Operation Menu</a></font> or by
+                          swiping the screen from left to right or vice versa).<br><br>
+                          <font class="highlight-text">18</font>. &nbsp;Although it is highly improbable to lose a playlist unless the App is uninstalled, you should
+                          still backup your important playlists via E-mail / Google Drive / Dropbox by the <font class="highlight-text">Playlist Share/Upload
+                          button</font> &nbsp;<img src="playlist_share.png" alt="Playlist Share button" class="icon"> &nbsp;in the
+                          <font class="title-text-medium shadow-text"><a href="#local-playlist-library">Playlist Operation Menu</a></font>, and save each playlist
+                          with an unique and meaningful file name as you designed (No matter what file name is your playlist, the App will only take the name stored
+                          inside the playlist as the default playlist name after it is downloaded).<br><br>
+                          <div class="text-area-indent"><font class="title-text-medium shadow-text">My Multimedia Library is a multi-purpose software. What
+                          application it is depends on what information you put into the playlist. If you put passwords into it, it will become your password reminder.
+                          If you put date and text into it, it may become your electronic multimedia diary. If you put music video and timed-lyrics into it, it will
+                          then become a real-time Karaoke Simulator.</font></div>
+                          <div class="text-area-indent" align=center><font class="title-text-big shadow-text">【&nbsp;Possible &nbsp;Applications&nbsp;】</font><br><br>
+                          (only limited by your imagination)</div>
+                          <table align=center style="border-collapse: separate; border-spacing: 1em; text-align: left; width: 95%">
+                             <tr>
+                                <td><td class="align-left-top"><u><b>Applications</b></u>
+                                <td><td style="vertical-align: top;"><u><b>Media entries required</b></u>
+                                <td><td style="vertical-align: top;"><u><b>Controls required</b></u>
+                             <tr>
+                                <td><td class="align-left-top">Research & studying notes / lecture / data presentation organizer
+                                <td><td style="vertical-align: top;">any
+                                <td><td style="vertical-align: top;">any
+                             <tr>
+                                <td><td class="align-left-top">Jukebox
+                                <td><td style="vertical-align: top;">music videos / text entry with audio /<br>image entry with audio /
+                                   <br>video entry (muted) with audio
+                                <td><td style="vertical-align: top;">Shuffling switch &nbsp;<img src="shuffle.png" alt="Shuffling switch" class="icon"> &nbsp; on,<br>
+                                   text-to-speech (optional) with delay time,<br>lyrics (optional)
+                             <tr>
+                                <td><td class="align-left-top">Jukebox for medley
+                                <td><td style="vertical-align: top;">same as Jukebox
+                                <td><td style="vertical-align: top;">same as Jukebox +<br>video starting & ending time controls
+                             <tr>
+                                <td><td class="align-left-top">Karaoke simulator / Timed-lyrics editor
+                                <td><td style="vertical-align: top;">music video / timed-lyrics
+                                <td><td style="vertical-align: top;">video starting & ending time controls +<br>text-to-speech (optional) with delay time
+                             <tr>
+                                <td><td class="align-left-top">Calendar / Memo pad / Notebook / Timetable / Reminder
+                                <td><td style="vertical-align: top;">text_entry
+                                <td><td style="vertical-align: top;">delay time control with all 3 playing style switches off,<br>text-to-speech (optional),
+                                   <br>message/lyrics (optional)
+                             <tr>
+                                <td><td class="align-left-top">Language learning packs creator/<br>Audio book player /<br>Auto essay/poem/quote reciter
+                                <td><td style="vertical-align: top;">any
+                                <td><td style="vertical-align: top;">text-to-speech / audio (optional),<br>message/lyrics (optional)
+                             <tr>
+                                <td><td class="align-left-top">Painting exhibition<br>(slideshow)
+                                <td><td style="vertical-align: top;">image entry
+                                <td><td style="vertical-align: top;">text-to-speech (optional),<br>audio for background music (optional),<br>message/lyrics (optional)
+                             <tr>
+                                <td><td class="align-left-top">Photo/image albums<br>(slideshow)
+                                <td><td style="vertical-align: top;">same as Painting exhibition
+                                <td><td style="vertical-align: top;">same as Painting exhibition
+                             <tr>
+                                <td><td class="align-left-top">Painting selling
+                                <td><td style="vertical-align: top;">same as Painting exhibition + text entry
+                                <td><td style="vertical-align: top;">same as Painting exhibition +<br>webpage link to the online stores
+                             <tr>
+                                <td><td class="align-left-top">Product selling & exhibition
+                                <td><td style="vertical-align: top;">image/video entry +<br>text entry
+                                <td><td style="vertical-align: top;">text-to-speech (optional),<br>message/lyrics (optional),<br>webpage link to the online stores
+                          </table><br>
+                          <div class="text-area-indent" align=center><font class="title-text-big shadow-text">【&nbsp;The&nbsp;Real&nbsp;Thing&nbsp;】</font></div>
+                          Below is what you will see when the App starts :<br><br>
+                          <table style="border-collapse: separate; border-spacing: 1em;">
+                             <tr>
+                                <td width=12% class="align-left-top"><font class="highlight-text">Portrait</font><br>mode :
+                                <td style="vertical-align: top;">When the phone is in Portrait mode, the screen is separated into 3 parts:
+                                   <font class="highlight-text">Media Display</font> area,
+                                   <font class="title-text-medium shadow-text"><a href="#main-menu">Menu</a></font> area, and
+                                   <font class="highlight-text">Playlist</font> area. In the Playlist area, you will see the media thumbnails, media titles and the
+                                   media numbers together with the <font class="title-text-medium shadow-text"><a href="#media-operation-menu">Media Operation
+                                   Menu</a></font> buttons &nbsp;<font class="highlight-text" color=#ffc90e>" &#8942; "</font> &nbsp;for operating media entries as
+                                   shown in the pictures below.
+                             <tr>
+                                <td class="align-left-top"><font class="highlight-text">Landscape</font><br>mode :
+                                <td style="vertical-align: top;">When the phone is in Landscape mode, media is displayed in full screen.
+                          </table><br><br>
+                          <table width=100%>
+                             <tr>
+                                <td><img src="example_01.jpg" alt="sample image 01">
+                                <td style="width: 1.85em;">
+                                <td><img src="example_02.jpg" alt="sample image 02">
+                          </table><br><br>
+                       </div>
+               </table>
+         <tr>
+            <td class="high-block-indent" id="media-operation-menu">
+         <tr>
+            <td align=center>
+               <table align=center class="title-area">
+                  <tr>
+                     <td align=center class="title-area-indent">Media &nbsp;&nbsp;Operation &nbsp;&nbsp;Menu
+               </table>
+         <tr>
+            <td class="low-block-indent">
+         <tr>
+            <td align=center>
+               <table align=center class="text-area golden-text">
+                 <tr>
+                    <td style="text-align: justify;">
+                       <div class="text-area-indent">
+                          <table width=100%>
+                             <tr>
+                                <td width=5%>
+                                <td><br><font class="title-text-medium shadow-text">
+                                   <ul>
+                                      <li>Redefine YouTube video with a new title, an arbitrary starting time, ending time, and delay time for your
+                                         own use<br><br></li>
+                                      <li>Move, Delete, Copy, Paste media entry and Edit media information in a playlist</li>
+                                   </ul></font>
+                          </table><br>
+                          <table width=100%>
+                             <tr>
+                                <td align=left id="example-1" style="text-align: justify;">
+                                   <img src="example_03.jpg" alt="sample image 03" align=left width=50% hspace=24 vspace=15>
+                                   <br><font class="highlight-text">Example &nbsp;1 &nbsp;- &nbsp;Partitioning of a video</font><br><br>
+                                   There is a great physics course about "The Theory of Relativity" (in-depth mathematical version) presented by Brian Greene
+                                   from WSU, which is compiled into one video of length more than 11 hours. Of course, it is not that efficient to study this course
+                                   with such length. Using this App, the video can be partitioned into a 71-lectures playlist with appropriate titles without doing
+                                   any real video editing. So, with the playlist, you can now study any part of the course at any time you like.<br><br>For beginners,
+                                   the first thing to learn is how to <font class="highlight-text">Add</font> a video into the playlist. There are two ways to do
+                                   that :<br><br>
+                                   <font class="highlight-text">1.</font> Copy the video link using the <font class="highlight-text">Share</font> button
+                                      &nbsp;<img src="youtube_share.jpg" alt="Youtube Share button" class="icon"> &nbsp; and the <font class="highlight-text">Copy
+                                      Link</font> button &nbsp;<img src="copy_link.jpg" alt="Copy Link button" class="icon"> &nbsp;when you are watching the video
+                                      in the official YouTube app, and then <a href="#paste-button"><button class="button violet small">Paste</button></a> the
+                                      video link at a selected position of the current playlist.<br><br>
+                                   <font class="highlight-text">2.</font> Add videos in batches from the App's
+                                      <font class="title-text-medium shadow-text"><a href="#search-mode">Search Engine</a></font>
+                                      &nbsp;<a href="#search-mode"><img src="search.png" alt="Search Mode button" class="icon"></a> &nbsp;(we will discuss it in detail
+                                      below).<br><br>
+                                   To partition a video, you need to use the <a href="#copy-button"><button class="button violet small">Copy</button></a> and the
+                                   <a href="#paste-button"><button class="button violet small">Paste</button></a> functions to duplicate the video first, and then
+                                   fill in appropriate information (such as titles, starting time, ending time etc. ...) for the partitioned videos using the App's
+                                   built-in <font class="title-text-medium shadow-text"><a href="#media-information-editor">Media Information Editor</a></font>
+                                   &nbsp;<a href="#media-information-editor"><button class="button green small">Edit</button></a><br><br>
+                                   The above funtions can also be used to fix careless mistakes made by the video providers, and we did manage to replace a misplaced
+                                   lecture video in another 14-lectures course, also by Brian Greene about "The Theory of Relativity" (non-mathematical version), with
+                                   a correct lecture partition from the course above.<br><br>
+                                   All the courses mentioned here can be downloaded from the
+                                   <font class="title-text-medium shadow-text"><a href="#public-playlist-library">Public Playlist Library</a></font>
+                                   &nbsp;<a href="#public-playlist-library"><img src="globe.png" alt="Library button" class="icon"></a> &nbsp;via the
+                                   <font class="title-text-medium shadow-text"><a href="#local-playlist-library">Playlist Operation Menu</a></font>. There are also
+                                   many other similar sample playlists partitioning videos for studying science, history, operas & musical albums, audio books,
+                                   languages, etc... in the Public Playlist Library. If you have any difficulties in partitioning your favourite videos, be our
+                                   Patreon members, we may be able to help for public educationl interest.<br><br>
+                                   Functions provided in the <font class="highlight-text">Media Operation Menu</font> are as follows :<br><br>
+                                   <button class="button red small">Move</button> &nbsp;- &nbsp;Move the selected media entry from its position to another position in
+                                   the current playlist. Input 1 as the target position if you want to move the media entry to the top of the playlist, and input a
+                                   number greater than the total number of media entries if you want to move the media entry to the end of the playlist.<br><br>
+                                   <button class="button green small">Delete</button> &nbsp;- &nbsp;Remove the selected media entry from the current playlist (For
+                                   technical reasons, deletion of media entry is NOT allowed if the playlist contains only 1 media entry, and deletion of playlist is
+                                   NOT allowed if your library contains only 1 playlist).
+                                   <br><span id="copy-button">&nbsp;<br><button class="button violet small">Copy</button> &nbsp;- &nbsp;Copy the media information from
+                                   the selected media entry of the current playlist (The <font class="highlight-text">Copy</font> operation is performed automatically
+                                   before the <font class="highlight-text">Deletion</font> operation).</span>
+                                   <br><span id="paste-button">&nbsp;<br><button class="button violet small">Paste</button> &nbsp;- &nbsp;Paste the copied media
+                                   information (equivalent to <font class="highlight-text">Add</font> media entry) to the position just after the selected media entry
+                                   of the current playlist.</span><br><br>
+                                   <a href="#media-information-editor"><button class="button green small">Edit</button></a> &nbsp;- &nbsp;Modify the media information
+                                   of the selected media entry in the App's built-in
+                                   <font class="title-text-medium shadow-text"><a href="#media-information-editor">Media Information Editor</a></font><br><br>
+                          </table>
+                       </div>
+               </table>
+         <tr>
+            <td class="high-block-indent" id="media-information-editor">
+         <tr>
+            <td align=center>
+               <table align=center class="title-area">
+                  <tr>
+                     <td align=center class="title-area-indent">Media &nbsp;&nbsp;Information &nbsp;&nbsp;Editor
+               </table>
+         <tr>
+            <td class="low-block-indent">
+         <tr>
+            <td align=center>
+               <table align=center class="text-area golden-text">
+                 <tr>
+                    <td style="text-align: justify;">
+                       <div class="text-area-indent">
+                          <table width=100%>
+                             <tr>
+                                <td width=5%>
+                                <td><br><font class="title-text-medium shadow-text">
+                                   <ul>
+                                      <li>Read-out input text in any language supported by the Text-To-Speech (TTS) Engine installed on your phone before a media
+                                         entry starts or when it is playing<br><br></li>
+                                      <li>Display input text (message/lyrics) in the playlist area when a media entry is playing</li>
+                                   </ul></font>
+                          </table><br>
+                          <table width=100%>
+                             <tr>
+                                <td align=left id="example-2" style="text-align: justify;">
+                                   <img src="media_editor.jpg" alt="Media Information Editor" align=left width=50% hspace=24 vspace=15>
+                                   <br><font class="highlight-text">Example &nbsp;2 &nbsp;- &nbsp;Making your phone say anything you want in a selected
+                                   language</font><br><br>
+                                   Just input text in the <font class="highlight-text">Speech</font> input area, and select a 
+                                   <font class="highlight-text">Language</font> and a <font class="highlight-text">Region code</font>, you can turn the App ino a text
+                                   reader easily.<br><br>
+                                   Set a <font class="highlight-text">Delay time</font> for the media entry if you want to end the speech before the media entry
+                                   starts.<br><br>
+                                   <font class="highlight-text">Note 1</font> : You may need to install the <font class="highlight-text">Google Text-to-Speech</font>
+                                   system (LLC) from <font class="highlight-text">Google Play Store</font> if you can't find a suitable languge.
+                          </table><br>
+                          Some of the available Language-Region pairs from Google are :<br><br><font class="smaller-text">
+                          <table width=100%>
+                            <tr><td><td><u><font class="highlight-text">Language</font></u>
+                                <td class="region-code-width"><u><font class="highlight-text">Region code</font></u>
+                                <td><td><u><font class="highlight-text">Language</font></u>
+                                <td class="region-code-width"><u><font class="highlight-text">Region code</font></u>
+                            <tr><td span=6 style="height: 1em;">
+                            <tr><td>Cantonese<td>Cantonese<td>HKG<td>Dutch<td>Dutch<td>NLD
+                            <tr><td>English (Australia)<td>English<td>AUS<td>English (UK)<td>English<td>GBR
+                            <tr><td>English (US)<td>English<td>USA<td>French<td>French<td>FRA
+                            <tr><td>German<td>German<td>DEU<td>Italian<td>Italian<td>ITA
+                            <tr><td>Japanese<td>Japanese<td>JPN<td>Korean<td>Korean<td>KOR
+                            <tr><td>Mandarin (China)<td>Mandarin<td>CHN<td>Mandarin (Taiwan)<td>Mandarin<td>TWN
+                            <tr><td>Portuguese<td>Portuguese<td>PRT<td>Spanish<td>Spanish<td>ESP
+                            <tr><td>Thai<td>Thai<td>THA<td>Vietnamese<td>Vietnamese<td>VNM
+                            <tr><td>...<td>...<td>...<td>...<td>...<td>...
+                          </table></font><br>
+                          <font class="highlight-text">Note 2</font> : In order to hear the speech, the <font class="highlight-text">Speech on/off switch</font>
+                          &nbsp;<img src="speech.png" alt="Speech Switch" class="icon"> &nbsp;in the
+                          <font class="title-text-medium shadow-text"><a href="#main-menu">Main Menu</a></font> must be turned on.<br><br>
+                          <font class="highlight-text">Note 3</font> : The <font class="highlight-text">Rate</font> and the <font class="highlight-text">Pitch</font>
+                          of speech can be set in &nbsp;<button class="button violet smallshort">Setup</button> &nbsp;via the
+                          <font class="highlight-text">System Menu button</font> &nbsp;<img src="system_menu.png" alt="System Menu button" class="icon"> &nbsp;in the
+                          <font class="title-text-medium shadow-text"><a href="#main-menu">Main Menu</a></font>.<br><br>
+                          <table width=100%>
+                             <tr>
+                                <td align=left id="example-3" style="text-align: justify;">
+                                   <img src="example_04.jpg" alt="sample image 04" align=left width=43.5% hspace=24 vspace=15>
+                                   <img src="example_05.jpg" alt="sample image 05" width=48.5% hspace=10 vspace=15>
+                                   <br><br><font class="highlight-text">Example &nbsp;3 &nbsp;- &nbsp;Displaying lyrics (with no time tag) for music
+                                   videos</font> (timed-lyrics will be discussed in the section of
+                                   <font class="title-text-medium shadow-text"><a href="#karaoke">Karaoke Simulator</a></font>).<br><br>
+                                   Text input in the <font class="highlight-text">Message</font> input area will be displayed when the video is playing. An
+                                   example of this is the music video of the song "Ave Maria" performed by Andrea Bocelli at the left and above.<br><br>
+                                   <font class="highlight-text">Note 1</font> : In order to view the message/lyrics, the
+                                   <font class="highlight-text">Message/ Lyrics display on/off switch</font>
+                                   &nbsp;<img src="comments.png" alt="Message/lyrics display switch" class="icon"> &nbsp;in the
+                                   <font class="title-text-medium shadow-text"><a href="#main-menu">Main Menu</a></font> must be turned on.<br><br>
+                                   <font class="highlight-text">Note 2</font> : The lyrics of the playing video can also be hidden with the
+                                   <font class="highlight-text">Hide Message/Lyrics</font> button
+                                   &nbsp;<img src="close_comments.png" alt="Hide Message button" width=70> &nbsp;at the top.<br><br>
+                          </table>
+                       </div>
+               </table>
+         <tr>
+            <td class="high-block-indent" id="main-menu">
+         <tr>
+            <td align=center>
+               <table align=center class="title-area">
+                  <tr>
+                     <td align=center class="title-area-indent">Main &nbsp;&nbsp;Menu
+               </table>
+         <tr>
+            <td class="low-block-indent">
+         <tr>
+            <td align=center>
+               <table align=center class="text-area golden-text">
+                 <tr>
+                    <td style="text-align: justify;">
+                       <div class="text-area-indent">
+                          <table width=100%>
+                             <tr>
+                                <td width=5%>
+                                <td><br><font class="title-text-medium shadow-text">
+                                   <ul>
+                                      <li>Control playing style: Looping, Shuffling and Repeating<br><br></li>
+                                      <li>Turn speech and message/lyrics display On or Off<br><br></li>
+                                      <li>Change the aspect ratio to maximize the video or image/photo size on the screen in portrait mode</li>
+                                   </ul></font>
+                          </table><br>
+                          <table width=100%>
+                             <tr>
+                                <td align=center>
+                                   <img src="main_menu.jpg" alt="Main Menu" width=70% vspace=15>
+                             <tr>
+                                <td align=left id="example-4" style="text-align: justify;">
+                                   <br><font class="highlight-text">Example &nbsp;4 &nbsp;- &nbsp;Turning your playlist into a jukebox</font><br><br>
+                                   If your playlist is a playlist of music videos, your playlist is already a jukebox. By default, your playlist will be
+                                   played in the <font class="highlight-text">Looping</font> playing mode
+                                   &nbsp;<img src="circulate.png" alt="Looping switch" class="icon"> . If you turn on the <font class="highlight-text">Shuffling
+                                   switch</font> &nbsp;<img src="shuffle.png" alt="Shuffling switch" class="icon"> &nbsp;or the <font class="highlight-text">Repeating
+                                   switch</font> &nbsp;<img src="repeat.png" alt="Repeating switch" class="icon"> , your playlist will be played in the
+                                   <font class="highlight-text">Shuffling</font> (non-repeating random) playing mode or the
+                                   <font class="highlight-text">Repeating</font> playing mode. The continuation of playing media entries will stop when all the 3
+                                   switches are off.<br><br>
+                                   <font class="highlight-text">Note 1</font> : To avoid disturbing people around you, the app is muted when it is launched. Press
+                                   the <font class="highlight-text">Unmute</font> button at the top before you start to do anything.<br><br>
+                                   <font class="highlight-text">Note 2</font> : User can also set all the videos to play only for the first 15, 20, 30, 45 or 60
+                                   seconds in &nbsp;<button class="button violet smallshort">Setup</button> &nbsp;via the
+                                   <font class="highlight-text">System Menu button</font> &nbsp;<img src="system_menu.png" alt="System Menu button" class="icon">
+                                   &nbsp;in the <font class="title-text-medium shadow-text"><a href="#main-menu">Main Menu</a></font>.<br><br>
+                                   Functions provided in the <font class="highlight-text">Main Menu</font> are as
+                                   follows:<br><br>
+                                   <img src="system_menu.png" alt="System Menu button" class="icon"> &nbsp;- &nbsp;Go to
+                                   &nbsp;<font class="title-text-medium shadow-text"><a href="#system-menu">System Menu</a></font><br><br>
+                                   <img src="speech.png" alt="Speech switch" class="icon"> &nbsp;- &nbsp;Speech on/off switch<br><br>
+                                   <img src="comments.png" alt="Message/lyrics display switch" class="icon"> &nbsp;- &nbsp;Message/lyrics display on/off switch<br><br>
+                                   <img src="circulate.png" alt="Looping switch" class="icon"> &nbsp;- &nbsp;Looping playing mode on/off switch<br><br>
+                                   <img src="shuffle.png" alt="Random switch" class="icon"> &nbsp;- &nbsp;Shuffling (non-repeating random) playing mode on/off
+                                   switch<br><br>
+                                   <img src="repeat.png" alt="Repeating switch" class="icon"> &nbsp;- &nbsp;Repeating playing mode on/off switch<br><br>
+                                   <img src="youtube.png" alt="Super button" class="icon"> &nbsp;- &nbsp;A multi-purpose button for visiting any part of a webpage
+                                   (text entry), zooming in on images/photos in your default browser (image entry), or watching videos directly with the
+                                   official <font class="highlight-text">YouTube</font> app if the current playlist isn't a <font class="highlight-text">Private</font>
+                                   playlist (Media entries in private playlists are NOT allowed to copy and share. Also, some of the playlists in the
+                                   <font class="title-text-medium shadow-text"><a href="#public-playlist-library">Public Playlist Library</a></font>
+                                   &nbsp;<a href="#public-playlist-library"><img src="globe.png" alt="Library button" class="icon"></a> &nbsp; may be private
+                                   playlists).
+                                   <br><span id="local-playlist-library-button">&nbsp;<br><a href="#local-playlist-library"><img src="playlist.png" alt="Local Playlist Library button" class="icon"></a>
+                                   &nbsp;- &nbsp;Go to &nbsp;<font class="title-text-medium shadow-text"><a href="#local-playlist-library">Local Playlist
+                                   Library</a></font></span>
+                                   <br><span id="search-mode-button">&nbsp;<br><a href="#search-mode"><img src="search.png" alt="Search Mode button" class="icon"></a>
+                                   &nbsp;- &nbsp;Go to &nbsp;<font class="title-text-medium shadow-text"><a href="#search-mode">Search Mode</a></font></span><br><br>
+                                   <img src="video_type.png" alt="Video Aspect Ratio switch" class="icon"> &nbsp;- &nbsp;Aspect Ratio switch for maximizing the video
+                                   or image/photo size on the screen in portrait mode. There are 3 aspect ratios: 16:9 standard, 4:3 old TV, and 9:16 vertical.<br><br>
+                          </table>
+                       </div>
+               </table>
+         <tr>
+            <td class="high-block-indent" id="search-mode">
+         <tr>
+            <td align=center>
+               <table align=center class="title-area">
+                  <tr>
+                     <td align=center class="title-area-indent">Search &nbsp;&nbsp;Mode
+               </table>
+         <tr>
+            <td class="low-block-indent">
+         <tr>
+            <td align=center>
+               <table align=center class="text-area golden-text">
+                 <tr>
+                    <td style="text-align: justify;">
+                       <div class="text-area-indent">
+                          <table width=100%>
+                             <tr>
+                                <td width=5%>
+                                <td><br><font class="title-text-medium shadow-text">
+                                   <ul>
+                                      <li>Search for keywords in the current playlist<br><br></li>
+                                      <li>Search for YouTube videos with keywords<br><br></li>
+                                      <li>Add selected videos in batches from search results to the current playlist</li>
+                                   </ul></font>
+                          </table><br>
+                          <table width=100%>
+                             <tr>
+                                <td align=center>
+                                   <img src="search_mode.jpg" alt="Search Mode" width=70% vspace=15>
+                             <tr>
+                                <td style="text-align: justify;">
+                                   <br>There are 2 search modes : by default, user can search for keywords in the current playlist. That means user can just say the
+                                   name of a song with the mic of the soft keyboard on the phone, the song will be played immediately in a music video playlist. User
+                                   can also set to search YouYube videos with keywords through &nbsp;<button class="button violet smallshort">Setup</button>&nbsp;
+                                   via the <font class="highlight-text">System Menu button</font>
+                                   &nbsp;<img src="system_menu.png" alt="System Menu button" class="icon">
+                                   &nbsp;in the <font class="title-text-medium shadow-text"><a href="#main-menu">Main Menu</a></font>.<br><br>
+                             <tr id="example-5">
+                                <td style="text-align: justify;">
+                                   <font class="highlight-text">Example &nbsp;5 &nbsp;- &nbsp;Adding videos in batches from the App's Search Engine to the current
+                                   playlist</font><br><br>
+                                   First, set to search YouYube videos in &nbsp;<button class="button violet smallshort">Setup</button>&nbsp;. After entering the
+                                   <font class="highlight-text">Search Mode</font> using the
+                                   <font class="title-text-medium shadow-text"><a href="#search-mode-button">Search Mode button</a></font>
+                                   &nbsp;<a href="#search-mode-button"><img src="search.png" alt="Search Mode button" class="icon"></a> &nbsp;in the
+                                   <font class="title-text-medium shadow-text"><a href="#main-menu">Main Menu</a></font>, you will see the
+                                   <font class="highlight-text">Search Menu</font> as shown above. Enter your search keywords in the text input area, and the
+                                   search result will be displayed just under the menu when the <font class="highlight-text">Search button</font>
+                                   &nbsp;<img src="search.png" alt="Search button" class="icon"> &nbsp;is pressed. Add your favourite videos to the buffer area using
+                                   the rightmost "<font style="color: #ff6f00; font-weight: 600;">Add</font>" button of each entry. Once you quit the
+                                   <font class="highlight-text">Search Mode</font> with the <font class="highlight-text">Back</font> button
+                                   &nbsp;<img class="icon" src="back.png" alt="Search button"> , all videos in the buffer area will be appended to the current
+                                   playlist.<br><br>
+                                   The search is done by page, and it offers about <font class="highlight-text">50</font> results each page. You can use the
+                                   <font class="highlight-text">Next Page button</font> &nbsp;<img src="next.png" alt="Search Next Page button" class="icon">
+                                   &nbsp;and the <font class="highlight-text">Previous Page button</font>
+                                   &nbsp;<img src="previous.png" alt="Search Previous Page button" class="icon"> &nbsp;to get the search results of the next and the
+                                   previous page after the first page is displayed.<br><br>
+                                   <font class="highlight-text">Note 1</font> : In order to save resourses, there is daily quota limiting the number of searches. This
+                                   quota may be increased if required.<br><br>
+                                   <font class="highlight-text">Note 2</font> : If users have difficulty in using the search engine, they can always use
+                                   <font class="highlight-text">google search</b> instead. Use YouTube's <font class="highlight-text">Share</font> button
+                                   &nbsp;<img src="youtube_share.jpg" alt="Youtube Share button" class="icon"> &nbsp; and the
+                                   <font class="highlight-text">Copy Link</font> button &nbsp;<img src="copy_link.jpg" alt="Copy Link button" class="icon"> &nbsp, and
+                                   then <a href="#paste-button"><button class="button violet small">Paste</button></a> the copied video link at a selected position,
+                                   videos can also be added one by one into the playlist.<br><br>
+                          </table>
+                       </div>
+               </table>
+         <tr>
+            <td class="high-block-indent" id="local-playlist-library">
+         <tr>
+            <td align=center>
+               <table align=center class="title-area">
+                  <tr>
+                     <td align=center class="title-area-indent">Local &nbsp;&nbsp;Playlist &nbsp;&nbsp;Library
+               </table>
+         <tr>
+            <td class="low-block-indent">
+         <tr>
+            <td align=center>
+               <table align=center class="text-area golden-text">
+                 <tr>
+                    <td style="text-align: justify;">
+                       <div class="text-area-indent">
+                          <table width=100%>
+                             <tr>
+                                <td width=5%>
+                                <td><br><font class="title-text-medium shadow-text">
+                                   <ul>
+                                      <li>Create new playlist, Delete playlist, and Modify playlist names<br><br></li>
+                                      <li>Share playlist with other handphones via E-mail, Google Drive, Dropbox or Bluetooth</li>
+                                   </ul></font>
+                          </table><br>
+                          <table width=100%>
+                             <tr>
+                                <td align=center>
+                                   <img src="playlist_menu.jpg" alt="Playlist Operation Menu" width=70% vspace=15>
+                             <tr id="example-6">
+                                <td align=left style="text-align: justify;">
+                                   <br><font class="highlight-text">Example &nbsp;6 &nbsp;- &nbsp;Building your own playlist library</font><br><br>
+                                   After entering the <font class="highlight-text">Local Playlist Library</font> using the
+                                   <font class="title-text-medium shadow-text"><a href="#local-playlist-library-button">Local Playlist Library button</a></font>
+                                   &nbsp;<a href="#local-playlist-library-button"><img src="playlist.png" alt="Local Playlist Library button" class="icon"></a>
+                                   &nbsp;in the <font class="title-text-medium shadow-text"><a href="#main-menu">Main Menu</a></font>, you will see the
+                                   <font class="highlight-text">Playlist Operation Menu</font> as shown above. You can <font class="highlight-text">Add</font>
+                                   playlist, <font class="highlight-text">Delete</font> playlist and <font class="highlight-text">Modify</font> playlist name using the
+                                   <font class="highlight-text">Add Playlist button</font> &nbsp;<img src="playlist_add.png" alt="Add Playlist button" class="icon">
+                                   &nbsp;the <font class="highlight-text">Delete Playlist button</font>
+                                   &nbsp;<img src="playlist_delete.png" alt="Delete Playlist button" class="icon"> &nbsp;and the
+                                   <font class="highlight-text">Modify Playlist Name button</font>
+                                   &nbsp;<img src="playlist_edit.png" alt="Edit Playlist Name button" class="icon"> . Since playlist names are listed automatically
+                                   in alphabetical order, if the names are carefully designed and only related media entries are put into the same playlist, you will
+                                   be able to build-up a "well-constructed" media library easily.
+                                   <br><span id="example-7">&nbsp;<br><font class="highlight-text">Example &nbsp;7 &nbsp;- &nbsp;Sharing playlist via
+                                   E-mail, Google Drive or Dropbox</font></span><br><br>
+                                   Playlist can also be shared via <font class="highlight-text">E-mail / Google Drive / Dropbox</font> (default) or
+                                   <font class="highlight-text">Bluetooth</font>. In the <font class="highlight-text">E-mail</font> sharing mode, you can use the
+                                   <font class="highlight-text">Playlist Share/Upload button</font>
+                                   &nbsp;<img src="playlist_share.png" alt="Playlist Share button" class="icon"> &nbsp;and the <font class="highlight-text">Playlist
+                                   Download button</font> &nbsp;<img src="playlist_download.png" alt="Playlist Download button" class="icon"> &nbsp; to
+                                   share/upload and download playlist (the download function is <b>obsolete in android 11 or above</b> due to Google's new "file scope"
+                                   policy). For Google Drive & Dropbox users, they also use the <font class="highlight-text">Playlist Share/Upload button</font>
+                                   &nbsp;<img src="playlist_share.png" alt="Playlist Share button" class="icon"> &nbsp; to share/upload playlist, but they have to
+                                   download playlist in the
+                                   <font class="title-text-medium shadow-text"><a href="#public-playlist-library">Public Playlist Library</a></font>.
+                                   (We will discuss the <font class="title-text-medium shadow-text"><a href="#bluetooth-sharing-mode">Bluetooth Sharing Mode</a></font>
+                                   in detail below).<br><br> 
+                                   <font class="highlight-text">Note 1</font> : Playlist sharing mode can be set in
+                                   &nbsp;<button class="button violet smallshort">Setup</button> &nbsp;via the
+                                   <font class="highlight-text">System Menu button</font> &nbsp;<img src="system_menu.png" alt="System Menu button" class="icon">
+                                   &nbsp;in the <font class="title-text-medium shadow-text"><a href="#main-menu">Main Menu</a></font>.<br><br>
+                                   <font class="highlight-text">Note 2</font> : From our experience, it is highly improbable to lose a playlist unless the App is
+                                   uninstall. But if you have an important playlist, you still can backup your playlist via E-mail / Google Drive / Dropbox and save it
+                                   with an unique and meaningful file name as you designed (No matter what file name is your playlist, the App will only take the name
+                                   stored inside the playlist as the default playlist name after it is downloaded).
+                                   <br><span id="playlist-operation-menu">&nbsp;<br>Functions provided in the <font class="highlight-text">Playlist Operation
+                                   Menu</font> are as follows :</span><br><br>
+                                   <table width=100%>
+                                      <tr>
+                                         <td class="align-center-top icon"><a href="#public-playlist-library"><img src="globe.png" alt="Public Playlist Library button" class="icon"></a>
+                                         <td width=3% class="align-center-top">-
+                                         <td>Go to the &nbsp;<font class="title-text-medium shadow-text"><a href="#public-playlist-library">Public Playlist
+                                            Library</a></font><br><br>
+                                      <tr>
+                                         <td class="align-center-top"><img src="playlist_share.png" alt="Playlist Share button" class="icon">
+                                         <td class="align-center-top">-
+                                         <td>Share/Upload playlist via <font class="highlight-text">E-mail / Google Drive/ Dropbox</font> or set the handphone to be a
+                                            <font class="highlight-text">Bluetooth Server</font> if Bluetooth is the current playlist sharing mode<br><br>
+                                      <tr>
+                                         <td class="align-center-top"><img src="playlist_download.png" alt="Playlist Download button" class="icon">
+                                         <td class="align-center-top">-
+                                         <td>Download playlist from the <font class="highlight-text">Download Folder</font> of the handphone (since this function is
+                                            <b>obsolete in android 11 or above</b> due to Google's new "file scope" policy, use Google Drive, Dropbox or other valid
+                                            web address URL to download playlist in the
+                                            <font class="title-text-medium shadow-text"><a href="#public-playlist-library">Public Playlist Library</a></font>
+                                            instead) or set the handphone to be a <font class="highlight-text">Bluetooth Client</font> if Bluetooth is the current
+                                            playlist sharing mode<br><br>
+                                      <tr>
+                                         <td class="align-center-top"><img src="playlist_edit.png" alt="Modify Playlist Name button" class="icon">
+                                         <td class="align-center-top">-
+                                         <td>Modify playlist name of the selected playlist<br><br>
+                                      <tr>
+                                         <td class="align-center-top"><img src="playlist_delete.png" alt="Delete Playlist button" class="icon">
+                                         <td class="align-center-top">-
+                                         <td>Delete the selected playlist (For technical reasons, the current playing playlist and the only one playlist remained in
+                                            the library is NOT allowed to be deleted)<br><br>
+                                      <tr>
+                                         <td class="align-center-top"><img src="playlist_add.png" alt="New Playlist button" class="icon">
+                                         <td class="align-center-top">-
+                                         <td>Create a new playlist (For technical reasons, 3 demo media entries: video entry, image entry and text entry, will be added
+                                            to the new playlist automatically, and you can delete any one of these entries when there are more than 1 entries in the
+                                            playlist)<br><br>
+                                      <tr>
+                                         <td class="align-center-top"><img src="playlist_load.png" alt="Load Playlist button" class="icon">
+                                         <td class="align-center-top">-
+                                         <td>Exit the Local Playlist Library and play the selected playlist immediately.<br><br>
+                                      <tr>
+                                         <td class="align-center-top"><img src="back.png" alt="Return Main Menu button" class="icon">
+                                         <td class="align-center-top">-
+                                         <td>Exit the Local Playlist Library and play the current media entry in the current playlist again<br><br>
+                                   </table>                                  
+                          </table>
+                       </div>
+               </table>
+         <tr>
+            <td class="high-block-indent" id="bluetooth-sharing-mode">
+         <tr>
+            <td align=center>
+               <table align=center class="title-area">
+                  <tr>
+                     <td align=center class="title-area-indent">Bluetooth &nbsp;&nbsp;Sharing &nbsp;&nbsp;Mode
+               </table>
+         <tr>
+            <td class="low-block-indent">
+         <tr>
+            <td align=center>
+               <table align=center class="text-area golden-text">
+                 <tr>
+                    <td style="text-align: justify;">
+                       <div class="text-area-indent"><br><br>
+                          <table width=100%>
+                             <tr>
+                                <td align=center id="example-8"><img src="bluetooth_server.jpg" alt="Bluetooth Server Menu">
+                                <td style="width: 1.85em;">
+                                <td align=center><img src="bluetooth_client.jpg" alt="Bluetooth Client Menu">
+                          </table><br><br>
+                          <table width=100%>
+                             <tr>
+                                <td align=left style="text-align: justify;">
+                                   <font class="highlight-text">Example &nbsp;8 &nbsp;- &nbsp;Sharing playlist via Bluetooth</font><br><br>
+                                   The steps to share playlist via Bluetooth are as follows :<br><br></p>
+                                   <table width=100%>
+                                      <tr>
+                                         <td width=3% class="align-left-top">1.
+                                         <td>Turn <font class="highlight-text">On</font> Bluetooth on both handphones (To save battery, turn off Bluetooth when not
+                                            in use).<br><br>
+                                      <tr>
+                                         <td class="align-left-top">2.
+                                         <td>If you can't find the other handphone's Bluetooth address in your device list, start pairing with it until you find its
+                                            address.<br><br>
+                                      <tr>
+                                         <td class="align-left-top">3.
+                                         <td>If the current playlist sharing mode of the App is not Bluetooth on any one of the paired handphones, set it to Bluetooth
+                                            sharing mode in &nbsp;<button class="button violet smallshort">Setup</button> &nbsp;via the
+                                            <font class="highlight-text">System Menu button</font>
+                                            &nbsp;<img src="system_menu.png" alt="System Menu button" class="icon"> &nbsp;in the
+                                            <font class="title-text-medium shadow-text"><a href="#main-menu">Main Menu</a></font>.<br><br>
+                                      <tr>
+                                         <td class="align-left-top">4.
+                                         <td>Go to <font class="title-text-medium shadow-text"><a href="#local-playlist-library">Local Playlist Library</a></font>.
+                                            From the <font class="highlight-text">Playlist Operation Menu</font>, select either one of the handphones to be the
+                                            <font class="highlight-text">Bluetooth Server</font> with the button
+                                            &nbsp;<img src="playlist_share.png" alt="Playlist Share button" class="icon"> , and select the other one to be the
+                                            <font class="highlight-text">Bluetooth Client</font> with the button
+                                            &nbsp;<img src="playlist_download.png" alt="Playlist Share button" class="icon"> . You will see the
+                                            <font class="highlight-text">Bluetooth Menu</font> as shown above on both handphones after the selection.<br><br>
+                                      <tr>
+                                         <td class="align-left-top">5.
+                                         <td>Press the &nbsp;<button class="button violet smallshort">Connect</button> &nbsp;button on the Bluetooth Server side first,
+                                            and wait for connection ...<br><br>
+                                      <tr>
+                                         <td class="align-left-top">6.
+                                         <td>Press the &nbsp;<button class="button violet smallshort">Connect</button> &nbsp;button on the Bluetooth Client side, and
+                                            wait for connection ...<br><br>
+                                      <tr>
+                                         <td class="align-left-top">7.
+                                         <td>When both sides are connected, press the &nbsp;<button class="button red smallshort">Send</button> &nbsp;button on either
+                                            side, and the selected playlist will be transferred to the other side immediately.<br><br>
+                                      <tr>
+                                         <td class="align-left-top">8.
+                                         <td>Press the &nbsp;<button class="button violet smallshort">Disconnect</button> &nbsp;button on both sides when
+                                            finished.<br><br>
+                                   </table>                                   
+                          </table>
+                       </div>
+               </table>
+         <tr>
+            <td class="high-block-indent" id="public-playlist-library">
+         <tr>
+            <td align=center>
+               <table align=center class="title-area">
+                  <tr>
+                     <td align=center class="title-area-indent">Public &nbsp;&nbsp;Playlist &nbsp;&nbsp;Library
+               </table>
+         <tr>
+            <td class="low-block-indent">
+         <tr>
+            <td align=center>
+               <table align=center class="text-area golden-text">
+                 <tr>
+                    <td style="text-align: justify;">
+                       <div class="text-area-indent">
+                          <table width=100%>
+                             <tr>
+                                <td width=5%>
+                                <td><br><font class="title-text-medium shadow-text">
+                                   <ul>
+                                      <li>Download fine-tuned categorized sample playlists from the Public Playlist Library<br><br></li>
+                                      <li>Download any playlist created with this App via web URL address, Google Drive or Dropbox</li>
+                                   </ul></font>
+                          </table><br><br>
+                          <table width=100%>
+                             <tr>
+                                <td align=center><img src="playlist_library_category.jpg" alt="Playlist Library Select Category image">
+                                <td style="width: 1.85em;">
+                                <td align=center><img src="playlist_library_playlist.jpg" alt="Playlist Library Select Playlist image">
+                          </table>
+                          <table width=100%>
+                             <tr id="example-9">
+                                <td align=left style="text-align: justify;"><br><br><font class="highlight-text">Example &nbsp;9 &nbsp;- &nbsp;Download
+                                   playlists from the Public Playlist Library</font><br><br>
+                                   After entering the <font class="highlight-text">Public Playlist Library</font> using the
+                                   <font class="title-text-medium shadow-text"><a href="#playlist-operation-menu">Puplic Playlist Library button</a></font>
+                                   &nbsp;<a href="#playlist-operation-menu"><img src="globe.png" alt="Puplic Playlist Library button" class="icon"></a> &nbsp;in the
+                                   <font class="title-text-medium shadow-text"><a href="#playlist-operation-menu">Playlist Operation Menu</a></font>, you will see
+                                   the <font class="highlight-text">Category List</font> as shown in the left image above. After you select a category and
+                                   <b>press once more</b> the selected category or press the <font class="highlight-text">Library Go button</font>
+                                   &nbsp;<img src="library_go.png" alt="library go button" class="icon"> , you will see the
+                                   <font class="highlight-text">Playlist List</font> of that selected category as shown in the right image above. Again, after you
+                                   select a playlist and "<b>click once more</b>" of the selected playlist or press the
+                                   <font class="highlight-text">Library Go button</font> &nbsp;<img src="library_go.png" alt="library go button" class="icon"> , that
+                                   playlist will then be downloaded and added into your own Playlist Library immediately, and you will also go back to the
+                                   <font class="title-text-medium shadow-text"><a href="#local-playlist-library">Local Playlist Library</a></font> automatically.
+                                   <br><span id="example-10">&nbsp;<br><font class="highlight-text">Example &nbsp;10 &nbsp;- &nbsp;Download playlists from
+                                   websites, Google Drive or Dropbox</font></span><br><br>
+                                   Enter or paste any valid playlist URL address or Google Drive / Dropbox file link into the <font class="highlight-text">Address
+                                   Input Area</font> in the <font class="highlight-text">Library Menu</font> at the top of the library, and then use the
+                                   <font class="highlight-text">Playlist Download button</font>
+                                   &nbsp;<img src="playlist_download.png" alt="Playlist Download button" class="icon"> &nbsp;to download the playlist (Playlist
+                                   providers should allow users to copy the links of the playlists from their websites).<br><br>
+                                   <font class="highlight-text">Note 1</font> : Google Drive / Dropbox users should set the accessibility of their playlist files to
+                                   "<b>anyone with the link</b>" or "<b>public</b>".<br><br>
+                                   <font class="highlight-text">Note 2</font> : Selection of media contents in the <font class="highlight-text">Public Playlist
+                                   Library</font> is conducted in accordance with the following policy:<br><br>
+                                   <table width=100%>
+                                      <tr>
+                                         <td width=5%>
+                                         <td><br><font class="title-text-medium shadow-text">
+                                            <ul>
+                                               <li>All decisions are made by human being, NOT a machine<br><br></li>
+                                               <li>Contents of playist are the best we found on the Internet, and should fall into the categories closely related to
+                                                  "Truthfullness", "Kindness" and "Beautiness"</b>.</li>
+                                            </ul></font>
+                                   </table><br><br>
+                                   <font class="highlight-text">Note 3</font> : We will update the <b>Public Playlist Library</b> constantly. So be our Patreon
+                                      members, and support us to continue our work without interruptions.
+                          </table>
+                       </div>
+               </table>
+         <tr>
+            <td class="high-block-indent" id="karaoke">
+         <tr>
+            <td align=center>
+               <table align=center class="title-area">
+                  <tr>
+                     <td align=center class="title-area-indent">Karaoke &nbsp;&nbsp;Simulator
+               </table>
+         <tr>
+            <td class="low-block-indent">
+         <tr>
+            <td align=center>
+               <table align=center class="text-area golden-text">
+                 <tr>
+                    <td style="text-align: justify;">
+                       <div class="text-area-indent">
+                          <table width=100%>
+                             <tr>
+                                <td width=5%>
+                                <td><br><font class="title-text-medium shadow-text">
+                                   <ul>
+                                      <li>Display timed-lyrics and seek lyrics line in real-time in Portrait mode & Landscape mode<br><br></li>
+                                      <li>Activate the Scrolling Lines Karaoke Simulator (portrait mode) & the Overlay on Video Karaoke Simulator (portrait &
+                                         landscape mode)<br><br></li>
+                                      <li>Seek, time & edit lyrics line in the Lyrics Editor in real-time<br><br></li>
+                                      <li>Set lyrics display style in portrait mode, and set background & lyrics display style in landscape mode<br><br></li>
+                                      <li>Save background and lyrics settings to the current music video entry</li>
+                                   </ul></font>
+                          </table><br><br>
+                          <table width=100%>
+                             <tr>
+                                <td align=center><img src="lyrics_line_scrolling_simulator.jpg" alt="Scrolling Lines Karaoke Simulator image">
+                                <td style="width: 1.85em;">
+                                <td align=center><img src="overlay_on_video_simulator.jpg" alt="Overlay on Video Karaoke Simulator image">
+                          </table><br><br>
+                          <table width=100%>
+                             <tr>
+                                <td style="text-align: justify;">
+                                   There are 2 <font class="highlight-text">Karaoke Simulators</font> :<br><br>
+                                      <table width=100% style="border-spacing: 1em;">
+                                         <tr>
+                                            <td class="align-left-top" width=20%>
+                                            <td align=center width=39%><font class="title-text-medium shadow-text">Scrolling Lines<br>Karaoke Simulator</font>
+                                            <td>
+                                            <td align=center width=39%><font class="title-text-medium shadow-text">Overlay on Video<br>Karaoke Simulator</font>
+                                         <tr>
+                                            <td class="align-left-top">Screenshot
+                                            <td>left
+                                            <td>
+                                            <td>right
+                                         <tr>
+                                            <td class="align-left-top">Display&nbsp;mode
+                                            <td>portrait only
+                                            <td>
+                                            <td>portrait & landscape
+                                         <tr>
+                                            <td class="align-left-top">Triggerer
+                                            <td class="align-left-top">the string "<font class="highlight-text">[offset=0.0]</font>" in the message/lyrics input area,
+                                               and the &nbsp;<button class="button red smallshort">Hide Video Lyrics</button>&nbsp; button
+                                            <td>
+                                            <td class="align-left-top">the &nbsp;<button class="button red smallshort">Display on Video</button>&nbsp; button in the
+                                               <b>Scrolling Lines Karaoke Simulator</b>
+                                         <tr>
+                                            <td class="align-left-top">Accuracy
+                                            <td class="align-left-top">less accurate, use it for rough work only or just don't use it for timing (but display is OK
+                                               if the timed-lyrics is already accurate)
+                                            <td>
+                                            <td class="align-left-top">very accurate, should use it for fine-tuning especially in landscape mode with larger font size
+                                         <tr>
+                                            <td class="align-left-top">Seeking
+                                            <td class="align-left-top">press lyrics text to seek (replay) a lyrics line
+                                            <td>
+                                            <td class="align-left-top">NO seeking
+                                         <tr>
+                                            <td class="align-left-top">Settings
+                                            <td class="align-left-top">simple settings for screen display only
+                                            <td>
+                                            <td class="align-left-top">3 background styles, lyrics layout & detailed settings, can be saved to individual music video
+                                               entry
+                                         <tr>
+                                            <td class="align-left-top">Setup dialog<br>triggerer
+                                            <td class="align-left-top">the &nbsp;<button class="button violet smallshort">Setup</button>&nbsp; button in the
+                                               <b>Scrolling Lines Karaoke Simulator</b>
+                                            <td>
+                                            <td class="align-left-top">press the video when lyrics is displaying on video in both portrait & landscape mode
+                                      </table><br>
+                                      <table width=100%>
+                                         <tr>
+                                            <td align=left id="example-3" style="text-align: justify;">
+                                               <img src="lyrics_editor.jpg" alt="Lyrics Editor image" align=left width=43.5% hspace=24 vspace=15>
+                                               <img src="background_setup.jpg" alt="Background Setup image" width=51% hspace=0 vspace=20>
+                                               <img src="lyrics_layout.jpg" alt="Lyrics Preferences image" width=51% hspace=0 vspace=20>
+                                               <img src="lyrics_preferences.jpg" alt="Lyrics Preferences image" width=51% hspace=0 vspace=20>                                               
+                                      </table>
+                             <tr id="example-11">
+                                <td align=left style="text-align: justify;"><br><br><font class="highlight-text">Example &nbsp;11 &nbsp;- &nbsp;Create timed-lyrics
+                                   for Karaoke Simulator</font><br><br>
+                                   Just follow the steps below, you can seek, time and edit lyrics lines easily in real-time while the music video is playing :<br><br>
+                                   <table width=100%>
+                                      <tr>
+                                         <td class="align-left-top">1.
+                                         <td>Press the &nbsp;<font class="title-text-medium shadow-text"><a href="#media-operation-menu">Media Operation
+                                            Menu</a></font>&nbsp; button &nbsp;<font class="highlight-text" color=#ffc90e>" &#8942; "</font>&nbsp; of the target music
+                                            video to open the menu.<br><br>
+                                      <tr>
+                                         <td width=3% class="align-left-top">2.
+                                         <td>Press the &nbsp;<a href="#media-information-editor"><button class="button green small">Edit</button></a>&nbsp; button to
+                                            open the
+                                            &nbsp;<font class="title-text-medium shadow-text"><a href="#media-information-editor">Media Information Editor</a></font>
+                                            &nbsp;for the video entry.<br><br>
+                                      <tr>
+                                         <td class="align-left-top">3.
+                                         <td>Enter the string "<font class="highlight-text">[offset=0.0]</font>" in the
+                                            <font class="highlight-text">Message</font> input area, and then close the editor. The <b>Scrolling Lines Karaoke
+                                            Simulator</b> will be activated when the music video is played again.<br><br>
+                                      <tr>
+                                         <td class="align-left-top">4.
+                                         <td>Wait and don't do anything while the music video is synchronizing. It may take a few seconds or more until the video is
+                                            loaded successfully.<br><br>
+                                      <tr>
+                                         <td class="align-left-top">5.
+                                         <td>Press the &nbsp;<button class="button red smallshort">Display on Video</button>&nbsp; button to activate the <b>Overlay
+                                            on Video Karaoke Simulator</b>.<br><br>
+                                      <tr>
+                                         <td class="align-left-top">6.
+                                         <td>Press the &nbsp;<button class="button green smallshort">Lyrics Editor</button>&nbsp; button to open the <b>Lyrics
+                                            Editor</b>. The music video will start to play again from the beginning when the editor is activated.<br><br>
+                                      <tr>
+                                         <td class="align-left-top">7.
+                                         <td>Press the red pen &nbsp;<font size=4>🖍</font>&nbsp; to edit &nbsp;"<b>My first lyrics line</b>".<br><br>
+                                      <tr>
+                                         <td class="align-left-top">8.
+                                         <td>Press the &nbsp;<button class="button violet smallshort">Insert &nbsp;&nbsp;▼</button>&nbsp; button to add a few more
+                                            lines below for continuous timing. Video will be stopped when a line is added or removed. User can always restart the
+                                            video at any accurate lyrics line by pressing the <b>text area</b> of the line.<br><br>
+                                      <tr>
+                                         <td class="align-left-top">9.
+                                         <td>Fill all the lyrics line with text for timing, and then press the first line with time tag &nbsp;<b>[00:00.00]</b>&nbsp;
+                                            to restart the music video from the beginning.<br><br>
+                                      <tr>
+                                         <td class="align-left-top">10.
+                                         <td>Press the stopwatch &nbsp;<img src="stop_watch.png" alt="Stop Watch button" class="icon">&nbsp; or the <b>time tag
+                                            area</b> to time the lyrics lines. The time tag will turn red when it receives a new time. Don't press too hard for there
+                                            will be NO response if the handphone is moving or if the screen scrolls.<br><br>
+                                      <tr>
+                                         <td class="align-left-top">11.
+                                         <td>Turn the phone to landscape mode to check the accuracy of the lyrics lines one by one.<br><br>
+                                      <tr>
+                                         <td class="align-left-top">12.
+                                         <td>Turn the phone to portrait mode and press the red pen &nbsp;<font size=4>🖍</font>&nbsp; to fine-tune the time tag.
+                                            Human eyes can detect noticeable difference up to 0.05 second, and that is also the step size for fine-tuning, e.g. 0.10,
+                                            0.15, 0.20, ...<br><br>
+                                      <tr>
+                                         <td class="align-left-top">13.
+                                         <td>Press the text area of the accurately timed lyrics line at just a few lines before the editing line to restart the music
+                                            video and turn the phone to landscape mode to check the accuracy again.<br><br>
+                                      <tr>
+                                         <td class="align-left-top">14.
+                                         <td>Edit, time and fine-tune all the lyrics lines until you are satisfied.<br><br>
+                                      <tr>
+                                         <td class="align-left-top">15.
+                                         <td>Use the "Return" or the "Next Line" key in the soft keyboard to make more space for the lyrics lines if preferred,
+                                            so that they are nicely separated in portrait mode. Extra space will be cut off automatically when lyrics lines are
+                                            displayed on video.<br><br>
+                                   </table>
+                                   <font class="highlight-text">Note 1</font> : For <b>single line</b> lyrics display, lyrics line will appear <b>0.4</b> second
+                                      earlier.<br><br>
+                                   <font class="highlight-text">Note 2</font> : Use the &nbsp;<button class="button violet smallshort">Copy</button>&nbsp; & the
+                                      &nbsp;<button class="button violet smallshort">Paste</button>&nbsp; buttons in the <b>Single Line Editor</b> to edit the
+                                      repeated lines. The time in the time tag will be adjusted accordingly &nbsp;(But don't expect that you don't have to fine-tune
+                                      the repeated lines for even the best singer can't sing exactly at the right time every time).<br><br>
+                                   <font class="highlight-text">Note 3</font> : For safety reasons, timed-lyrics data is not allowed to be viewed and edited in the
+                                      <b>Message input</b> area in the &nbsp;<font class="title-text-medium shadow-text"><a href="#media-information-editor">Media
+                                      Information Editor</a></font>. Use the &nbsp;<button class="button violet smallshort">View Raw Lyrics Data</button>&nbsp;
+                                      button in the Lyrics Setup &nbsp;<button class="button violet smallshort">Setup</button>&nbsp; dialogue box to view all
+                                      the the timed-lyrics data stored in the music video entry. User can also copy the lyrics data for use in other music video
+                                      entries of the same song.<br><br>
+                                   <font class="highlight-text">Note 4</font> : Offset must be set to ZERO (0.0) when lyrics are being edited in the <b>Lyrics
+                                      Editor</b> for accurate timing. It should ONLY be changed (by pressing the
+                                      &nbsp;<button class="button green smallshort">Offset</button>&nbsp; button in the Lyrics Setup
+                                      &nbsp;<button class="button violet smallshort">Setup</button>&nbsp; dialogue box) if lyrics of the whole music video are out
+                                      of sync, when the timed-lyrics are copied & used for another music video of the same song, or when the music video is played
+                                      in a different handphone.<br><br>
+                                   <font class="highlight-text">Note 5</font> : Study our sample playlists in the
+                                      &nbsp;<font class="title-text-medium shadow-text"><a href="#public-playlist-library">Public Playlist Library</a></font>&nbsp;
+                                      to see how we play tricks on lyrics display.<br><br>
+                                   <font class="highlight-text">Note 6</font> : There is a known problem when lyrics are displaying on video: the App will crash after
+                                      switching between portrait mode and landscape mode many times. For safety reason, use the
+                                      &nbsp;<button class="button violet smallshort">Save Lyrics</button>&nbsp; button to save the recently edited lyrics more often
+                                      in case you encounter a "software crash" after editing for some time. Just restart the App if this happens.<br><br>
+                                   <font class="highlight-text">Note 7</font> : Some of the system preset lyrics display effects are special effects, and user may
+                                      not be able to control all the parameters.
+                          </table>
+                       </div>
+               </table>
+         <tr>
+            <td class="high-block-indent" id="system-menu">
+         <tr>
+            <td align=center>
+               <table align=center class="title-area">
+                  <tr>
+                     <td align=center class="title-area-indent">System &nbsp;&nbsp;Menu
+               </table>
+         <tr>
+            <td class="low-block-indent">
+         <tr>
+            <td align=center>
+               <table align=center class="text-area golden-text">
+                 <tr>
+                    <td style="text-align: justify;">
+                       <div class="text-area-indent">
+                          <table width=100%>
+                             <tr>
+                                <td align=center><br>
+                                   <img src="system_menu.jpg" alt="Main Menu" width=70% vspace=15>
+                             <tr>
+                                <td align=left style="text-align: justify;">
+                                   <br>By pressing the <font class="highlight-text">System Menu button</font>
+                                   &nbsp;<img src="system_menu.png" alt="System Menu button" class="icon"> &nbsp;in the
+                                   <font class="title-text-medium shadow-text"><a href="#main-menu">Main Menu</a></font>, you will see the
+                                   <font class="highlight-text">System Menu</font> as shown above.<br><br>
+                                   Functions provided in the <font class="highlight-text">System Menu</font> are as follows :<br><br>
+                                   <button class="button violet small">Setup</button> &nbsp;- &nbsp;Go to <font class="highlight-text">Setup</font><br><br>
+                                   <button class="button red small">Manual</button></a> &nbsp;- &nbsp;View <font class="highlight-text">User's Operation Manual</font>
+                                   in default browser<br><br>
+                                   <button class="button green small">About</button></a> &nbsp;- &nbsp;View <font class="highlight-text">About</font> of the
+                                   App<br><br>
+                                   <button class="button blue small">Quit</button></a> &nbsp;- &nbsp;<font class="highlight-text">Quit</font> the App<br><br>
+                          </table>
+                       </div>
+               </table>
+         <tr>
+            <td class="high-block-indent" id="privacy_policy">
+         <tr>
+            <td align=center>
+               <table align=center class="title-area">
+                  <tr>
+                     <td align=center class="title-area-indent">Privacy &nbsp;&nbsp;Policy
+               </table>
+         <tr>
+            <td class="low-block-indent">
+         <tr>
+            <td align=center>
+               <table align=center class="text-area golden-text">
+                 <tr>
+                    <td style="text-align: justify;">
+                       <div class="text-area-indent">
+                          <table width=100%>
+                             <tr>
+                                <td align=center><br>
+                                   <table align=center class="title-area">
+                                      <tr>
+                                         <td align=center class="title-area-indent" style="font-weight: normal; padding-left: 2.5em;">
+                                            <br>My Multimedia Library<br><br>
+                                            <ul align=left>
+                                               <li> &nbsp;doesn't collect or share user's personal information,</li>
+                                               <li> &nbsp;doesn't track or profile our users.</li>
+                                            </ul>
+                                            <br>Period.<br><br>
+                                   </table>
+                             <tr>
+                                <td class="low-block-indent">
+                             <tr>
+                                <td class="low-block-indent">
+                             <tr>
+                                <td align=center>
+                                   <table align=center class="text-area golden-text">
+                                      <tr>
+                                         <td style="text-align: justify;">
+                                            <div class="text-area-indent">
+                                               We don't collect any personal data because we believe privacy is a fundamental human right, and we have no interest
+                                               in this kind of data. Also, if no information is collected, nothing can be stolen, demanded, leaked or abused.<br><br>
+                                               <font class="highlight-text">Exception</font>: if you write email to us, the email and all the related information
+                                               will be deleted after 90 days, no matter a reply is given or not.<br><br>
+                                               <font class="highlight-text">Caution</font>: if you press the <font class="highlight-text">Super Play</font> button
+                                               &nbsp;<img src="youtube.png" alt="Go button" class="icon">&nbsp; to visit any other webpages or to watch videos with
+                                               the official YouTube app, we can't protect your privacy anymore, and you have to take your own responsibility for such
+                                               an action.
+                                            </div>
+                                   </table>
+                          </table>
+                       </div>
+               </table>
+         <tr>
+            <td class="low-block-indent">
+         <tr>
+            <td class="high-block-indent">
+         <tr>
+            <td align=center>
+               <div class="lower-box-with-border"><font class="title-font-medium golden-title">My &nbsp;Multimedia &nbsp;Library</font>
+                  <div class="title-font-small golden-text embrossed-text">Copyright &#169; <span id="current-year"></span>
+                     <script>getCurrentYear();</script>&nbsp;&nbsp;My Multimedia Library &nbsp;&nbsp;All Rights Reserved
+                  </div>
+               </div>
+         <tr>
+      </table>
+   </div>
+
+</body>
+</html>
